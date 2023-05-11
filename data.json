@@ -1,22 +1,9 @@
 {
-  "test": 123,
-  "cities": {
-    "cities": [
-      {
-        "name": "Tokyo",
-        "description": "Known for its modernity, fashion, incredible food scene, and buzzing nightlife",
-        "language": "Japanese"
-      },
-      {
-        "name": "Paris",
-        "description": "Known for its romantic atmosphere, stunning landmarks, sophisticated fashion, and delicious cuisine",
-        "language": "French"
-      },
-      {
-        "name": "Rio de Janeiro",
-        "description": "Known for its stunning beaches, Carnaval celebrations, vibrant music and dance scene, and rich cultural heritage",
-        "language": "Portuguese"
-      }
-    ]
-  }
+  "cities": [
+    {
+      "name": "New York City",
+      "description": "the city that never sleeps",
+      "language": "English"
+    }
+  ]
 }
