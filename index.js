@@ -5,7 +5,7 @@ import logs from './logs.json' assert { type: 'json' }
 
 const targets = {
   areas: 12,
-  cities: 12,
+  cities: 60,
 }
 
 const histories = {
@@ -30,7 +30,7 @@ const schemas = {
 }
 
 const turbo = async messages => {
-  const response = await fetch(`https://us-central1-samantha-374622.cloudfunctions.net/turbo`, {
+  const response = await fetch(`https://us-central1-samantha-374622.cloudfunctions.net/gpt4`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -63,22 +63,26 @@ const addCities = () => {
   let started_at = Date.now()
   histories.cities.push({
     role: 'user',
-    content: `I want info on 3 more cool cities besides ${cities}. Return a JSON object copying this schema: ${schema} and use the values as hints.`,
+    content: `I want info on 3 more cool cities besides ${cities}. Return a single JSON object copying this schema: ${schema} and use the values as hints.`,
   })
-  console.log(histories.cities.at(-1))
+  // console.log(histories.cities.at(-1))
   turbo(histories.cities).then(text => {
-    histories.cities.push({
-      role: 'assistant',
-      content: text,
-    })
-    const newCities = toJSON(text).cities
-    newCities.forEach(city => {
-      // ignore dupes
-      if (!data.cities.some(c => c.name === city.name)) data.cities.push(city)
-    })
-    fs.writeFileSync('data.json', JSON.stringify(data, null, 2))
-    log(Date.now() - started_at, `Added ${newCities.map(c => c.name).join(', ')}`)
-
+    try {
+      const newCities = toJSON(text).cities
+      histories.cities.push({
+        role: 'assistant',
+        content: text,
+      })
+      newCities.forEach(city => {
+        // ignore dupes
+        if (!data.cities.some(c => c.name === city.name)) data.cities.push(city)
+      })
+      fs.writeFileSync('data.json', JSON.stringify(data, null, 2))
+      log(Date.now() - started_at, `Added ${newCities.map(c => c.name).join(', ')}`)
+    } catch (error) {
+      console.log(text)
+      log(Date.now() - started_at, `Error adding cities: ${error}`)
+    }
     // AutoGPT
     if (data.cities.length < targets.cities) addCities()
     // while that runs, start next task

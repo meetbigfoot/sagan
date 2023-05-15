@@ -1,1 +1,426 @@
-[]
+[
+  {
+    "duration": 0,
+    "event": "Init AutoGPT",
+    "stats": {
+      "total_cities": 1
+    },
+    "time": 1683865348184
+  },
+  {
+    "duration": 15033,
+    "event": "Added Tokyo, Paris, Sydney",
+    "stats": {
+      "total_cities": 4
+    },
+    "time": 1683865363201
+  },
+  {
+    "duration": 14319,
+    "event": "Added Barcelona, Rio de Janeiro, Dubai",
+    "stats": {
+      "total_cities": 7
+    },
+    "time": 1683865377521
+  },
+  {
+    "duration": 13319,
+    "event": "Added Amsterdam, Cape Town, Bangkok",
+    "stats": {
+      "total_cities": 10
+    },
+    "time": 1683865390840
+  },
+  {
+    "duration": 14612,
+    "event": "Added Berlin, Vancouver, Seoul",
+    "stats": {
+      "total_cities": 13
+    },
+    "time": 1683865405452
+  },
+  {
+    "duration": 14283,
+    "event": "Added Buenos Aires, Marrakesh, Auckland",
+    "stats": {
+      "total_cities": 16
+    },
+    "time": 1683865419736
+  },
+  {
+    "duration": 16202,
+    "event": "Added Edinburgh, Montreal, Bergen",
+    "stats": {
+      "total_cities": 19
+    },
+    "time": 1683865435938
+  },
+  {
+    "duration": 15427,
+    "event": "Added Cusco, Melbourne, Stockholm",
+    "stats": {
+      "total_cities": 22
+    },
+    "time": 1683865451365
+  },
+  {
+    "duration": 15658,
+    "event": "Added Helsinki, Lisbon, Prague",
+    "stats": {
+      "total_cities": 25
+    },
+    "time": 1683865467024
+  },
+  {
+    "duration": 14646,
+    "event": "Added Copenhagen, Hanoi, Reykjavik",
+    "stats": {
+      "total_cities": 28
+    },
+    "time": 1683865481670
+  },
+  {
+    "duration": 14915,
+    "event": "Added Jerusalem, Tbilisi, Wellington",
+    "stats": {
+      "total_cities": 31
+    },
+    "time": 1683865496585
+  },
+  {
+    "duration": 15139,
+    "event": "Added Beirut, Cartagena, Oslo",
+    "stats": {
+      "total_cities": 34
+    },
+    "time": 1683865511724
+  },
+  {
+    "duration": 15241,
+    "event": "Added Krakow, San Francisco, Barcelona",
+    "stats": {
+      "total_cities": 36
+    },
+    "time": 1683865526966
+  },
+  {
+    "duration": 16928,
+    "event": "Added Florence, Singapore, Dublin",
+    "stats": {
+      "total_cities": 39
+    },
+    "time": 1683865543894
+  },
+  {
+    "duration": 0,
+    "event": "Init AutoGPT",
+    "stats": {
+      "total_cities": 39
+    },
+    "time": 1683865598199
+  },
+  {
+    "duration": 0,
+    "event": "Init AutoGPT",
+    "stats": {
+      "total_cities": 39
+    },
+    "time": 1683897027941
+  },
+  {
+    "duration": 0,
+    "event": "Init AutoGPT",
+    "stats": {
+      "total_cities": 39
+    },
+    "time": 1683897149856
+  },
+  {
+    "duration": 12057,
+    "event": "Error adding cities: SyntaxError: Unexpected non-whitespace character after JSON at position 151",
+    "stats": {
+      "total_cities": 39
+    },
+    "time": 1683897161899
+  },
+  {
+    "duration": 14995,
+    "event": "Added Rio de Janeiro, Istanbul, Dublin",
+    "stats": {
+      "total_cities": 40
+    },
+    "time": 1683897176895
+  },
+  {
+    "duration": 14267,
+    "event": "Added Budapest, Seville, Krabi",
+    "stats": {
+      "total_cities": 43
+    },
+    "time": 1683897191162
+  },
+  {
+    "duration": 16515,
+    "event": "Added Marrakesh, Cape Town, Austin",
+    "stats": {
+      "total_cities": 44
+    },
+    "time": 1683897207678
+  },
+  {
+    "duration": 17086,
+    "event": "Added Rio de Janeiro, Stockholm, Chiang Mai",
+    "stats": {
+      "total_cities": 45
+    },
+    "time": 1683897224764
+  },
+  {
+    "duration": 16667,
+    "event": "Added Buenos Aires, Dubai, Copenhagen",
+    "stats": {
+      "total_cities": 45
+    },
+    "time": 1683897241431
+  },
+  {
+    "duration": 17944,
+    "event": "Added Bariloche, Amman, Cape Town",
+    "stats": {
+      "total_cities": 47
+    },
+    "time": 1683897259375
+  },
+  {
+    "duration": 17510,
+    "event": "Added Dubrovnik, Brisbane, Athens",
+    "stats": {
+      "total_cities": 50
+    },
+    "time": 1683897276886
+  },
+  {
+    "duration": 16284,
+    "event": "Added São Paulo, Edinburgh, Kyoto",
+    "stats": {
+      "total_cities": 52
+    },
+    "time": 1683897293170
+  },
+  {
+    "duration": 15050,
+    "event": "Added Mexico City, Seattle, Jaipur",
+    "stats": {
+      "total_cities": 55
+    },
+    "time": 1683897308220
+  },
+  {
+    "duration": 16481,
+    "event": "Added Lima, Dublin, Bangkok",
+    "stats": {
+      "total_cities": 56
+    },
+    "time": 1683897324702
+  },
+  {
+    "duration": 15573,
+    "event": "Added Fez, Toronto, Prague",
+    "stats": {
+      "total_cities": 58
+    },
+    "time": 1683897340275
+  },
+  {
+    "duration": 492,
+    "event": "Error adding cities: TypeError: Cannot read properties of undefined (reading 'forEach')",
+    "stats": {
+      "total_cities": 58
+    },
+    "time": 1683897340769
+  },
+  {
+    "duration": 434,
+    "event": "Error adding cities: TypeError: Cannot read properties of undefined (reading 'forEach')",
+    "stats": {
+      "total_cities": 58
+    },
+    "time": 1683897341204
+  },
+  {
+    "duration": 658,
+    "event": "Error adding cities: TypeError: Cannot read properties of undefined (reading 'forEach')",
+    "stats": {
+      "total_cities": 58
+    },
+    "time": 1683897341863
+  },
+  {
+    "duration": 1416,
+    "event": "Error adding cities: TypeError: Cannot read properties of undefined (reading 'forEach')",
+    "stats": {
+      "total_cities": 58
+    },
+    "time": 1683897343280
+  },
+  {
+    "duration": 2204,
+    "event": "Error adding cities: TypeError: Cannot read properties of undefined (reading 'forEach')",
+    "stats": {
+      "total_cities": 58
+    },
+    "time": 1683897345485
+  },
+  {
+    "duration": 10251,
+    "event": "Error adding cities: TypeError: Cannot read properties of undefined (reading 'forEach')",
+    "stats": {
+      "total_cities": 58
+    },
+    "time": 1683897355737
+  },
+  {
+    "duration": 14837,
+    "event": "Error adding cities: SyntaxError: Unexpected end of JSON input",
+    "stats": {
+      "total_cities": 58
+    },
+    "time": 1683897370574
+  },
+  {
+    "duration": 14031,
+    "event": "Error adding cities: SyntaxError: Unexpected end of JSON input",
+    "stats": {
+      "total_cities": 58
+    },
+    "time": 1683897384607
+  },
+  {
+    "duration": 13853,
+    "event": "Error adding cities: SyntaxError: Unexpected end of JSON input",
+    "stats": {
+      "total_cities": 58
+    },
+    "time": 1683897398461
+  },
+  {
+    "duration": 14007,
+    "event": "Error adding cities: SyntaxError: Unexpected end of JSON input",
+    "stats": {
+      "total_cities": 58
+    },
+    "time": 1683897412469
+  },
+  {
+    "duration": 15966,
+    "event": "Error adding cities: SyntaxError: Unexpected end of JSON input",
+    "stats": {
+      "total_cities": 58
+    },
+    "time": 1683897428436
+  },
+  {
+    "duration": 0,
+    "event": "Init AutoGPT",
+    "stats": {
+      "total_cities": 58
+    },
+    "time": 1683897442322
+  },
+  {
+    "duration": 10472,
+    "event": "Error adding cities: SyntaxError: Unexpected non-whitespace character after JSON at position 114",
+    "stats": {
+      "total_cities": 58
+    },
+    "time": 1683897452780
+  },
+  {
+    "duration": 14624,
+    "event": "Added Hong Kong, Dublin, Rio de Janeiro",
+    "stats": {
+      "total_cities": 59
+    },
+    "time": 1683897467405
+  },
+  {
+    "duration": 14489,
+    "event": "Added Mumbai, Stockholm, Cape Town",
+    "stats": {
+      "total_cities": 60
+    },
+    "time": 1683897481894
+  },
+  {
+    "duration": 14226,
+    "event": "Added Copenhagen, Dubai, Krakow",
+    "stats": {
+      "total_cities": 60
+    },
+    "time": 1683897496122
+  },
+  {
+    "duration": 13721,
+    "event": "Added Edinburgh, Rio de Janeiro, Fez",
+    "stats": {
+      "total_cities": 60
+    },
+    "time": 1683897509844
+  },
+  {
+    "duration": 14231,
+    "event": "Added Santorini, Toronto, Seoul",
+    "stats": {
+      "total_cities": 61
+    },
+    "time": 1683897524076
+  },
+  {
+    "duration": 13454,
+    "event": "Added Cape Town, Budapest, Krabi",
+    "stats": {
+      "total_cities": 61
+    },
+    "time": 1683897537531
+  },
+  {
+    "duration": 14955,
+    "event": "Added Montreal, Dubrovnik, Krakow",
+    "stats": {
+      "total_cities": 61
+    },
+    "time": 1683897552487
+  },
+  {
+    "duration": 20055,
+    "event": "Added Amsterdam, Dublin, Kyoto",
+    "stats": {
+      "total_cities": 61
+    },
+    "time": 1683897572543
+  },
+  {
+    "duration": 14718,
+    "event": "Added Cusco, Berlin, Krabi",
+    "stats": {
+      "total_cities": 61
+    },
+    "time": 1683897587261
+  },
+  {
+    "duration": 12899,
+    "event": "Added San Diego, Reykjavik, Marrakesh",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1683897600161
+  },
+  {
+    "duration": 0,
+    "event": "Redundant logs removed for 58 additional failed requests",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1683897601702
+  }
+]
