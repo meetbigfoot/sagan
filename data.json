@@ -7,51 +7,450 @@
       "areas": [
         {
           "name": "Times Square",
-          "description": "Known for its iconic billboards, theaters and tourist attractions, Times Square is a bustling area in the heart of New York City."
+          "description": "Known for its iconic billboards, theaters and tourist attractions, Times Square is a bustling area in the heart of New York City.",
+          "plans": [
+            {
+              "title": "🌇 A Day in Times Square 🗽",
+              "parts": [
+                {
+                  "time_of_day": "morning",
+                  "places": [
+                    {
+                      "name": "Ellen's Stardust Diner",
+                      "address": "1650 Broadway, New York, NY 10019",
+                      "latitude": 40.761446,
+                      "longitude": -73.983719,
+                      "tags": "diner, breakfast, singing waitstaff"
+                    },
+                    {
+                      "name": "Top of the Rock",
+                      "address": "30 Rockefeller Plaza, New York, NY 10112",
+                      "latitude": 40.759137,
+                      "longitude": -73.979467,
+                      "tags": "observation deck, city views, photography"
+                    }
+                  ]
+                },
+                {
+                  "time_of_day": "afternoon",
+                  "places": [
+                    {
+                      "name": "Madame Tussauds New York",
+                      "address": "234 W 42nd St, New York, NY 10036",
+                      "latitude": 40.756964,
+                      "longitude": -73.988648,
+                      "tags": "wax museum, celebrities, fun"
+                    },
+                    {
+                      "name": "Gulliver's Gate",
+                      "address": "216 W 44th St, New York, NY 10036",
+                      "latitude": 40.757837,
+                      "longitude": -73.986768,
+                      "tags": "miniature world, interactive, family-friendly"
+                    }
+                  ]
+                },
+                {
+                  "time_of_day": "evening",
+                  "places": [
+                    {
+                      "name": "Broadway Theatre",
+                      "address": "1681 Broadway, New York, NY 10019",
+                      "latitude": 40.764685,
+                      "longitude": -73.983579,
+                      "tags": "theater, live shows, entertainment"
+                    },
+                    {
+                      "name": "Haven Rooftop",
+                      "address": "132 W 47th St, New York, NY 10036",
+                      "latitude": 40.758622,
+                      "longitude": -73.983078,
+                      "tags": "rooftop bar, city views, lounge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "🌟 A Day of Wonders in Times Square 🌃",
+              "parts": [
+                {
+                  "time_of_day": "morning",
+                  "places": [
+                    {
+                      "name": "Junior's Restaurant",
+                      "address": "1515 Broadway, New York, NY 10036",
+                      "latitude": 40.758881,
+                      "longitude": -73.985418,
+                      "tags": "breakfast, cheesecake, classic"
+                    },
+                    {
+                      "name": "Good Morning America Studios",
+                      "address": "44th St &, Broadway, New York, NY 10036",
+                      "latitude": 40.757897,
+                      "longitude": -73.987061,
+                      "tags": "TV show, live broadcast, morning"
+                    }
+                  ]
+                },
+                {
+                  "time_of_day": "afternoon",
+                  "places": [
+                    {
+                      "name": "Madame Tussauds New York",
+                      "address": "234 W 42nd St, New York, NY 10036",
+                      "latitude": 40.756639,
+                      "longitude": -73.988753,
+                      "tags": "wax museum, celebrities, interactive"
+                    },
+                    {
+                      "name": "M&M's World",
+                      "address": "1600 Broadway, New York, NY 10019",
+                      "latitude": 40.760195,
+                      "longitude": -73.984509,
+                      "tags": "candy store, shopping, colorful"
+                    }
+                  ]
+                },
+                {
+                  "time_of_day": "evening",
+                  "places": [
+                    {
+                      "name": "Olive Garden",
+                      "address": "2 Times Square, New York, NY 10036",
+                      "latitude": 40.759544,
+                      "longitude": -73.985332,
+                      "tags": "Italian, dining, family-friendly"
+                    },
+                    {
+                      "name": "AMC Empire 25",
+                      "address": "234 W 42nd St, New York, NY 10036",
+                      "latitude": 40.756546,
+                      "longitude": -73.988846,
+                      "tags": "movies, theater, entertainment"
+                    }
+                  ]
+                },
+                {
+                  "time_of_day": "night",
+                  "places": [
+                    {
+                      "name": "Ripley's Believe It or Not!",
+                      "address": "234 W 42nd St, New York, NY 10036",
+                      "latitude": 40.756899,
+                      "longitude": -73.988748,
+                      "tags": "oddities, museum, unique"
+                    },
+                    {
+                      "name": "Gulliver's Gate",
+                      "address": "216 W 44th St, New York, NY 10036",
+                      "latitude": 40.757763,
+                      "longitude": -73.987176,
+                      "tags": "miniature world, interactive, family"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "🗽 Times Square Adventure Time 🚀",
+              "parts": [
+                {
+                  "time_of_day": "morning",
+                  "places": [
+                    {
+                      "name": "Ellen's Stardust Diner",
+                      "address": "1650 Broadway, New York, NY 10019",
+                      "latitude": 40.761702,
+                      "longitude": -73.98384,
+                      "tags": "breakfast, singing waitstaff, retro"
+                    },
+                    {
+                      "name": "The Morning Show",
+                      "address": "224 W 45th St, New York, NY 10036",
+                      "latitude": 40.758356,
+                      "longitude": -73.987027,
+                      "tags": "morning talk show, live TV, celebrity guests"
+                    }
+                  ]
+                },
+                {
+                  "time_of_day": "afternoon",
+                  "places": [
+                    {
+                      "name": "National Geographic Encounter: Ocean Odyssey",
+                      "address": "226 W 44th St, New York, NY 10036",
+                      "latitude": 40.757778,
+                      "longitude": -73.987106,
+                      "tags": "oceanic, interactive, educational"
+                    },
+                    {
+                      "name": "Hershey's Chocolate World",
+                      "address": "20 Times Square, New York, NY 10036",
+                      "latitude": 40.758605,
+                      "longitude": -73.98584,
+                      "tags": "chocolate, shopping, sweet"
+                    }
+                  ]
+                },
+                {
+                  "time_of_day": "evening",
+                  "places": [
+                    {
+                      "name": "Bubba Gump Shrimp Co.",
+                      "address": "1501 Broadway, New York, NY 10036",
+                      "latitude": 40.758074,
+                      "longitude": -73.9856,
+                      "tags": "seafood, family-friendly, movie-themed"
+                    },
+                    {
+                      "name": "New Victory Theater",
+                      "address": "209 W 42nd St, New York, NY 10036",
+                      "latitude": 40.756795,
+                      "longitude": -73.987406,
+                      "tags": "performances, family shows, arts"
+                    }
+                  ]
+                },
+                {
+                  "time_of_day": "night",
+                  "places": [
+                    {
+                      "name": "The Ride NYC",
+                      "address": "234 W 42nd St, New York, NY 10036",
+                      "latitude": 40.756639,
+                      "longitude": -73.988753,
+                      "tags": "sightseeing, interactive, bus tour"
+                    },
+                    {
+                      "name": "Carolines on Broadway",
+                      "address": "1626 Broadway, New York, NY 10019",
+                      "latitude": 40.761224,
+                      "longitude": -73.983971,
+                      "tags": "comedy club, entertainment, night out"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "🌇 Times Square Excitement Extravaganza 🎉",
+              "parts": [
+                {
+                  "time_of_day": "morning",
+                  "places": [
+                    {
+                      "name": "Friedman's",
+                      "address": "228 W 47th St, New York, NY 10036",
+                      "latitude": 40.759841,
+                      "longitude": -73.986742,
+                      "tags": "breakfast, gluten-free, cozy"
+                    },
+                    {
+                      "name": "The Nintendo Store",
+                      "address": "10 Rockefeller Plaza, New York, NY 10020",
+                      "latitude": 40.75863,
+                      "longitude": -73.978526,
+                      "tags": "video games, merchandise, fun"
+                    }
+                  ]
+                },
+                {
+                  "time_of_day": "afternoon",
+                  "places": [
+                    {
+                      "name": "Planet Hollywood",
+                      "address": "1540 Broadway, New York, NY 10036",
+                      "latitude": 40.758842,
+                      "longitude": -73.985417,
+                      "tags": "restaurant, movie memorabilia, themed"
+                    },
+                    {
+                      "name": "Discovery Times Square",
+                      "address": "226 W 44th St, New York, NY 10036",
+                      "latitude": 40.757808,
+                      "longitude": -73.987154,
+                      "tags": "interactive exhibitions, fun, family"
+                    }
+                  ]
+                },
+                {
+                  "time_of_day": "evening",
+                  "places": [
+                    {
+                      "name": "Carmine's Italian Restaurant",
+                      "address": "200 W 44th St, New York, NY 10036",
+                      "latitude": 40.75785,
+                      "longitude": -73.987348,
+                      "tags": "Italian, family-style, bustling"
+                    },
+                    {
+                      "name": "Broadway Theatre",
+                      "address": "1681 Broadway, New York, NY 10019",
+                      "latitude": 40.763489,
+                      "longitude": -73.983094,
+                      "tags": "performances, musicals, live shows"
+                    }
+                  ]
+                },
+                {
+                  "time_of_day": "night",
+                  "places": [
+                    {
+                      "name": "Dave & Buster's",
+                      "address": "234 W 42nd St, New York, NY 10036",
+                      "latitude": 40.756542,
+                      "longitude": -73.98887,
+                      "tags": "arcade, games, bar"
+                    },
+                    {
+                      "name": "Haven Rooftop",
+                      "address": "132 W 47th St, New York, NY 10036",
+                      "latitude": 40.758821,
+                      "longitude": -73.98334,
+                      "tags": "rooftop bar, nightlife, city view"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "🎭 Times Square Theatrical Thrills 🌆",
+              "parts": [
+                {
+                  "time_of_day": "morning",
+                  "places": [
+                    {
+                      "name": "Blue Fin",
+                      "address": "1567 Broadway, New York, NY 10036",
+                      "latitude": 40.759443,
+                      "longitude": -73.985509,
+                      "tags": "breakfast, sushi, seafood"
+                    },
+                    {
+                      "name": "Lego Store",
+                      "address": "1466 Broadway, New York, NY 10036",
+                      "latitude": 40.754647,
+                      "longitude": -73.986707,
+                      "tags": "toys, building blocks, fun"
+                    }
+                  ]
+                },
+                {
+                  "time_of_day": "afternoon",
+                  "places": [
+                    {
+                      "name": "Hard Rock Cafe",
+                      "address": "1501 Broadway, New York, NY 10036",
+                      "latitude": 40.75834,
+                      "longitude": -73.985679,
+                      "tags": "restaurant, rock 'n' roll, memorabilia"
+                    },
+                    {
+                      "name": "Bowlmor Lanes Times Square",
+                      "address": "222 W 44th St, New York, NY 10036",
+                      "latitude": 40.757852,
+                      "longitude": -73.98727,
+                      "tags": "bowling, entertainment, fun"
+                    }
+                  ]
+                },
+                {
+                  "time_of_day": "evening",
+                  "places": [
+                    {
+                      "name": "John's Pizzeria",
+                      "address": "260 W 44th St, New York, NY 10036",
+                      "latitude": 40.758101,
+                      "longitude": -73.988211,
+                      "tags": "pizza, Italian, casual"
+                    },
+                    {
+                      "name": "Majestic Theatre",
+                      "address": "245 W 44th St, New York, NY 10036",
+                      "latitude": 40.758177,
+                      "longitude": -73.98824,
+                      "tags": "performances, plays, live shows"
+                    }
+                  ]
+                },
+                {
+                  "time_of_day": "night",
+                  "places": [
+                    {
+                      "name": "The View Lounge",
+                      "address": "1535 Broadway, New York, NY 10036",
+                      "latitude": 40.758703,
+                      "longitude": -73.986231,
+                      "tags": "rooftop bar, rotating, city view"
+                    },
+                    {
+                      "name": "Gotham Comedy Club",
+                      "address": "208 W 23rd St, New York, NY 10011",
+                      "latitude": 40.744162,
+                      "longitude": -73.995868,
+                      "tags": "laughter, entertainment, night out"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "Central Park",
-          "description": "An expansive urban park with beautiful landscapes, Central Park offers numerous activities like boating, picnics, playgrounds and scenic walks."
+          "description": "An expansive urban park with beautiful landscapes, Central Park offers numerous activities like boating, picnics, playgrounds and scenic walks.",
+          "plans": []
         },
         {
           "name": "SoHo",
-          "description": "SoHo is famous for its trendy shopping boutiques, art galleries, and vibrant dining scene, making it a popular destination for locals and tourists alike."
+          "description": "SoHo is famous for its trendy shopping boutiques, art galleries, and vibrant dining scene, making it a popular destination for locals and tourists alike.",
+          "plans": []
         },
         {
           "name": "Brooklyn Bridge Park",
-          "description": "A waterfront park providing breathtaking views of the Manhattan skyline, green spaces, and recreational activities."
+          "description": "A waterfront park providing breathtaking views of the Manhattan skyline, green spaces, and recreational activities.",
+          "plans": []
         },
         {
           "name": "Greenwich Village",
-          "description": "Known for its bohemian vibe, historic Washington Square Park, and a vibrant dining and entertainment scene."
+          "description": "Known for its bohemian vibe, historic Washington Square Park, and a vibrant dining and entertainment scene.",
+          "plans": []
         },
         {
           "name": "Coney Island",
-          "description": "A beachside amusement area featuring the iconic amusement park, boardwalk, and sandy beach."
+          "description": "A beachside amusement area featuring the iconic amusement park, boardwalk, and sandy beach.",
+          "plans": []
         },
         {
           "name": "Battery Park",
-          "description": "A public park along the Hudson River offering scenic views, green spaces, and access to ferries for the Statue of Liberty and Ellis Island."
+          "description": "A public park along the Hudson River offering scenic views, green spaces, and access to ferries for the Statue of Liberty and Ellis Island.",
+          "plans": []
         },
         {
           "name": "DUMBO",
-          "description": "A trendy neighborhood with stunning views of Manhattan, iconic Brooklyn Bridge, and numerous art galleries and shops."
+          "description": "A trendy neighborhood with stunning views of Manhattan, iconic Brooklyn Bridge, and numerous art galleries and shops.",
+          "plans": []
         },
         {
           "name": "Chinatown",
-          "description": "A bustling neighborhood known for its authentic Chinese cuisine, colorful markets, and a vibrant shopping scene."
+          "description": "A bustling neighborhood known for its authentic Chinese cuisine, colorful markets, and a vibrant shopping scene.",
+          "plans": []
         },
         {
           "name": "Williamsburg",
-          "description": "A trendy, creative neighborhood with music venues, local boutiques, and a vibrant art scene."
+          "description": "A trendy, creative neighborhood with music venues, local boutiques, and a vibrant art scene.",
+          "plans": []
         },
         {
           "name": "Chelsea",
-          "description": "Known for its art galleries, High Line Park, and the famous Chelsea Market offering an array of food and shopping options."
+          "description": "Known for its art galleries, High Line Park, and the famous Chelsea Market offering an array of food and shopping options.",
+          "plans": []
         },
         {
           "name": "Harlem",
-          "description": "Home to historic institutions, such as the Apollo Theater, and a rich cultural scene with soul food restaurants and jazz clubs."
+          "description": "Home to historic institutions, such as the Apollo Theater, and a rich cultural scene with soul food restaurants and jazz clubs.",
+          "plans": []
         }
       ]
     },
@@ -62,51 +461,63 @@
       "areas": [
         {
           "name": "Shibuya",
-          "description": "Famous for its bustling shopping scene, Shibuya Crossing, and vibrant nightlife."
+          "description": "Famous for its bustling shopping scene, Shibuya Crossing, and vibrant nightlife.",
+          "plans": []
         },
         {
           "name": "Asakusa",
-          "description": "Known for its historic Senso-ji Temple, traditional shopping street, and vibrant festivals."
+          "description": "Known for its historic Senso-ji Temple, traditional shopping street, and vibrant festivals.",
+          "plans": []
         },
         {
           "name": "Akihabara",
-          "description": "A dreamland for manga, anime, and electronics enthusiasts with a plethora of shops and cafes."
+          "description": "A dreamland for manga, anime, and electronics enthusiasts with a plethora of shops and cafes.",
+          "plans": []
         },
         {
           "name": "Ginza",
-          "description": "A luxurious shopping district with high-end stores, famous department stores, and renowned art galleries."
+          "description": "A luxurious shopping district with high-end stores, famous department stores, and renowned art galleries.",
+          "plans": []
         },
         {
           "name": "Harajuku",
-          "description": "Known for its eclectic fashion scene, trendy shops, and colorful street art."
+          "description": "Known for its eclectic fashion scene, trendy shops, and colorful street art.",
+          "plans": []
         },
         {
           "name": "Shinjuku",
-          "description": "A bustling urban area with shopping malls, towering skyscrapers, lively entertainment districts, and the beautiful Shinjuku Gyoen National Garden."
+          "description": "A bustling urban area with shopping malls, towering skyscrapers, lively entertainment districts, and the beautiful Shinjuku Gyoen National Garden.",
+          "plans": []
         },
         {
           "name": "Odaiba",
-          "description": "An entertainment hub with shopping centers, amusement parks, and scenic waterfront views of Tokyo Bay."
+          "description": "An entertainment hub with shopping centers, amusement parks, and scenic waterfront views of Tokyo Bay.",
+          "plans": []
         },
         {
           "name": "Roppongi",
-          "description": "A vibrant nightlife scene with numerous clubs, bars, and international restaurants, as well as the Roppongi Hills complex and Mori Art Museum."
+          "description": "A vibrant nightlife scene with numerous clubs, bars, and international restaurants, as well as the Roppongi Hills complex and Mori Art Museum.",
+          "plans": []
         },
         {
           "Nname": "Ueno",
-          "description": "Home to Ueno Park, which houses several museums, a zoo, and the famous cherry blossom-lined boulevard."
+          "description": "Home to Ueno Park, which houses several museums, a zoo, and the famous cherry blossom-lined boulevard.",
+          "plans": []
         },
         {
           "name": "Ikebukuro",
-          "description": "A bustling commercial district with shopping centers, entertainment venues, and a popular aquarium."
+          "description": "A bustling commercial district with shopping centers, entertainment venues, and a popular aquarium.",
+          "plans": []
         },
         {
           "name": "Tsukiji",
-          "description": "Home to the former Tsukiji Fish Market, offering a variety of seafood and sushi restaurants, as well as the new Toyosu Fish Market."
+          "description": "Home to the former Tsukiji Fish Market, offering a variety of seafood and sushi restaurants, as well as the new Toyosu Fish Market.",
+          "plans": []
         },
         {
           "name": "Ebisu",
-          "description": "A popular district for dining and nightlife, featuring the Yebisu Garden Place complex and the Museum of Yebisu Beer."
+          "description": "A popular district for dining and nightlife, featuring the Yebisu Garden Place complex and the Museum of Yebisu Beer.",
+          "plans": []
         }
       ]
     },
@@ -117,51 +528,63 @@
       "areas": [
         {
           "name": "Le Marais",
-          "description": "A historic district known for its trendy boutiques, art galleries, and diverse dining options."
+          "description": "A historic district known for its trendy boutiques, art galleries, and diverse dining options.",
+          "plans": []
         },
         {
           "name": "Montmartre",
-          "description": "A charming, bohemian neighborhood with the iconic Sacré-Cœur Basilica, numerous art studios, and a lively atmosphere."
+          "description": "A charming, bohemian neighborhood with the iconic Sacré-Cœur Basilica, numerous art studios, and a lively atmosphere.",
+          "plans": []
         },
         {
           "name": "Saint-Germain-des-Prés",
-          "description": "A chic and intellectual neighborhood, home to historic cafes, upscale boutiques, and the beautiful Luxembourg Gardens."
+          "description": "A chic and intellectual neighborhood, home to historic cafes, upscale boutiques, and the beautiful Luxembourg Gardens.",
+          "plans": []
         },
         {
           "name": "Quartier Latin",
-          "description": "Lively and intellectual region featuring bookshops, gardens, and the famous Sorbonne University, as well as charming restaurants and bars."
+          "description": "Lively and intellectual region featuring bookshops, gardens, and the famous Sorbonne University, as well as charming restaurants and bars.",
+          "plans": []
         },
         {
           "name": "Canal Saint-Martin",
-          "description": "A trendy district with hip cafés and bars, charming streets along the canal, as well as home to the picturesque locks and iron footbridges."
+          "description": "A trendy district with hip cafés and bars, charming streets along the canal, as well as home to the picturesque locks and iron footbridges.",
+          "plans": []
         },
         {
           "name": "La Villette",
-          "description": "A cultural hub featuring the Cité des Sciences et de l'Industrie, the Philharmonie de Paris concert hall, and the sprawling Parc de la Villette."
+          "description": "A cultural hub featuring the Cité des Sciences et de l'Industrie, the Philharmonie de Paris concert hall, and the sprawling Parc de la Villette.",
+          "plans": []
         },
         {
           "name": "Bastille",
-          "description": "An energetic district known for its nightlife scene, vibrant bars, cutting-edge art galleries, and historic landmarks such as the Opéra Bastille."
+          "description": "An energetic district known for its nightlife scene, vibrant bars, cutting-edge art galleries, and historic landmarks such as the Opéra Bastille.",
+          "plans": []
         },
         {
           "name": "Champs-Élysées",
-          "description": "An iconic boulevard famous for its luxury shopping, upscale dining, and historical monuments, including the Arc de Triomphe and the Grand Palais."
+          "description": "An iconic boulevard famous for its luxury shopping, upscale dining, and historical monuments, including the Arc de Triomphe and the Grand Palais.",
+          "plans": []
         },
         {
           "name": "Jardin du Luxembourg",
-          "description": "A beautiful park with picturesque gardens, sculptures, fountains, and surrounding area filled with charming cafes, museums, and the Pantheon."
+          "description": "A beautiful park with picturesque gardens, sculptures, fountains, and surrounding area filled with charming cafes, museums, and the Pantheon.",
+          "plans": []
         },
         {
           "name": "Ile de la Cité",
-          "description": "The birthplace of Paris and home to historical landmarks such as Notre-Dame Cathedral, Sainte-Chapelle, and the Conciergerie."
+          "description": "The birthplace of Paris and home to historical landmarks such as Notre-Dame Cathedral, Sainte-Chapelle, and the Conciergerie.",
+          "plans": []
         },
         {
           "name": "Belleville",
-          "description": "A vibrant, multicultural neighborhood known for its street art, trendy cafés, and panoramic views at Parc de Belleville."
+          "description": "A vibrant, multicultural neighborhood known for its street art, trendy cafés, and panoramic views at Parc de Belleville.",
+          "plans": []
         },
         {
           "name": "Les Invalides",
-          "description": "A historic complex housing the iconic Army Museum, the tomb of Napoleon Bonaparte, and the stunning Église du Dôme."
+          "description": "A historic complex housing the iconic Army Museum, the tomb of Napoleon Bonaparte, and the stunning Église du Dôme.",
+          "plans": []
         }
       ]
     },
@@ -172,59 +595,73 @@
       "areas": [
         {
           "name": "Darling Harbour",
-          "description": "A bustling waterfront area known for its attractions, events, and dining"
+          "description": "A bustling waterfront area known for its attractions, events, and dining",
+          "plans": []
         },
         {
           "name": "Circular Quay",
-          "description": "The hub of Sydney Harbour featuring the iconic Sydney Opera House and Harbour Bridge"
+          "description": "The hub of Sydney Harbour featuring the iconic Sydney Opera House and Harbour Bridge",
+          "plans": []
         },
         {
           "name": "The Rocks",
-          "description": "A historic area offering a blend of old-world charm, unique shopping, and trendy dining options"
+          "description": "A historic area offering a blend of old-world charm, unique shopping, and trendy dining options",
+          "plans": []
         },
         {
           "name": "Bondi Beach",
-          "description": "A world-famous beach destination offering pristine sands, impressive surf, and a vibrant atmosphere"
+          "description": "A world-famous beach destination offering pristine sands, impressive surf, and a vibrant atmosphere",
+          "plans": []
         },
         {
           "name": "Manly Beach",
-          "description": "A popular destination for locals and tourists alike, offering a relaxed coastal vibe and scenic beachfront"
+          "description": "A popular destination for locals and tourists alike, offering a relaxed coastal vibe and scenic beachfront",
+          "plans": []
         },
         {
           "name": "Paddington",
-          "description": "A charming, leafy suburb known for its boutiques, galleries, and vibrant cafe culture"
+          "description": "A charming, leafy suburb known for its boutiques, galleries, and vibrant cafe culture",
+          "plans": []
         },
         {
           "name": "Surry Hills",
-          "description": "A trendy neighborhood offering diverse restaurants, bars, and galleries in a lively, creative atmosphere"
+          "description": "A trendy neighborhood offering diverse restaurants, bars, and galleries in a lively, creative atmosphere",
+          "plans": []
         },
         {
           "name": "Newtown",
-          "description": "A vibrant and eclectic suburb known for its live music scene, indie theaters, and unique shopping"
+          "description": "A vibrant and eclectic suburb known for its live music scene, indie theaters, and unique shopping",
+          "plans": []
         },
         {
           "name": "Barangaroo",
-          "description": "A modern waterfront precinct with upscale dining, shopping, and stunning views of the Sydney skyline"
+          "description": "A modern waterfront precinct with upscale dining, shopping, and stunning views of the Sydney skyline",
+          "plans": []
         },
         {
           "name": "Double Bay",
-          "description": "An affluent harbourside suburb known for its high-end boutiques, galleries, and dining experiences"
+          "description": "An affluent harbourside suburb known for its high-end boutiques, galleries, and dining experiences",
+          "plans": []
         },
         {
           "name": "Taronga Zoo",
-          "description": "A world-class zoo set in a stunning harbourside location, offering unique wildlife encounters and spectacular views"
+          "description": "A world-class zoo set in a stunning harbourside location, offering unique wildlife encounters and spectacular views",
+          "plans": []
         },
         {
           "name": "Parramatta",
-          "description": "A growing cultural and commercial center with a rich history, vibrant shopping, and diverse dining options"
+          "description": "A growing cultural and commercial center with a rich history, vibrant shopping, and diverse dining options",
+          "plans": []
         },
         {
           "name": "Chatswood",
-          "description": "A bustling suburban center offering a mix of entertainment, shopping, and dining experiences"
+          "description": "A bustling suburban center offering a mix of entertainment, shopping, and dining experiences",
+          "plans": []
         },
         {
           "name": "Marrickville",
-          "description": "A multicultural neighborhood known for its eclectic shops, lively arts scene, and diverse range of eateries"
+          "description": "A multicultural neighborhood known for its eclectic shops, lively arts scene, and diverse range of eateries",
+          "plans": []
         }
       ]
     },
@@ -235,51 +672,63 @@
       "areas": [
         {
           "name": "Las Ramblas",
-          "description": "A popular tourist destination known for its bustling pedestrian street filled with shops, cafes, and street performers"
+          "description": "A popular tourist destination known for its bustling pedestrian street filled with shops, cafes, and street performers",
+          "plans": []
         },
         {
           "name": "El Raval",
-          "description": "A diverse and culturally rich area with a mix of contemporary art spaces, unique bars, and trendy boutiques"
+          "description": "A diverse and culturally rich area with a mix of contemporary art spaces, unique bars, and trendy boutiques",
+          "plans": []
         },
         {
           "name": "Gothic Quarter",
-          "description": "An ancient area featuring narrow, winding streets, medieval architecture, and iconic historical sites such as Barcelona Cathedral and Plaça Reial"
+          "description": "An ancient area featuring narrow, winding streets, medieval architecture, and iconic historical sites such as Barcelona Cathedral and Plaça Reial",
+          "plans": []
         },
         {
           "name": "El Poble-sec",
-          "description": "A vibrant neighborhood characterized by its lively theater scene, numerous bars, and local eateries, as well as being home to the iconic Montjuïc hill"
+          "description": "A vibrant neighborhood characterized by its lively theater scene, numerous bars, and local eateries, as well as being home to the iconic Montjuïc hill",
+          "plans": []
         },
         {
           "name": "Gracia",
-          "description": "A charming district with a bohemian atmosphere, known for artistic residents, lively squares, and a variety of popular annual festivals"
+          "description": "A charming district with a bohemian atmosphere, known for artistic residents, lively squares, and a variety of popular annual festivals",
+          "plans": []
         },
         {
           "name": "El Born",
-          "description": "A trendy area with a mix of historical landmarks, stylish shops, and nightlife venues blended with a picturesque and romantic atmosphere"
+          "description": "A trendy area with a mix of historical landmarks, stylish shops, and nightlife venues blended with a picturesque and romantic atmosphere",
+          "plans": []
         },
         {
           "name": "Eixample",
-          "description": "A modern district known for its grid-like layout, luxurious shopping streets, and architectural masterpieces like Gaudí's Casa Batlló and La Pedrera"
+          "description": "A modern district known for its grid-like layout, luxurious shopping streets, and architectural masterpieces like Gaudí's Casa Batlló and La Pedrera",
+          "plans": []
         },
         {
           "name": "Barceloneta",
-          "description": "A beachside neighborhood famous for its sandy beaches, fresh seafood, and lively nightlife along the waterfront"
+          "description": "A beachside neighborhood famous for its sandy beaches, fresh seafood, and lively nightlife along the waterfront",
+          "plans": []
         },
         {
           "name": "Poblenou",
-          "description": "A former industrial area turned into a hub for technology and innovation, featuring art galleries, modern coworking spaces, and creative urban developments like Palo Alto Market"
+          "description": "A former industrial area turned into a hub for technology and innovation, featuring art galleries, modern coworking spaces, and creative urban developments like Palo Alto Market",
+          "plans": []
         },
         {
           "name": "Les Corts",
-          "description": "An upscale residential district known for its peaceful and green parks, the renowned Camp Nou stadium, and the large shopping center L'Illa Diagonal"
+          "description": "An upscale residential district known for its peaceful and green parks, the renowned Camp Nou stadium, and the large shopping center L'Illa Diagonal",
+          "plans": []
         },
         {
           "name": "Sants-Montjuïc",
-          "description": "A vast area containing Montjuïc mountain with its beautiful gardens, cultural venues, and landmarks like the Magic Fountain, as well as the bustling Sants neighborhood with its diverse restaurants and bars"
+          "description": "A vast area containing Montjuïc mountain with its beautiful gardens, cultural venues, and landmarks like the Magic Fountain, as well as the bustling Sants neighborhood with its diverse restaurants and bars",
+          "plans": []
         },
         {
           "name": "Horta-Guinardó",
-          "description": "A large district with a mix of urban and natural landscapes, including the picturesque Park Güell, traditional villa-style residences, and a variety of green spaces"
+          "description": "A large district with a mix of urban and natural landscapes, including the picturesque Park Güell, traditional villa-style residences, and a variety of green spaces",
+          "plans": []
         }
       ]
     },
@@ -290,51 +739,63 @@
       "areas": [
         {
           "name": "Ipanema",
-          "description": "An upscale neighborhood with beautiful beaches, high-end shops, and trendy cafes"
+          "description": "An upscale neighborhood with beautiful beaches, high-end shops, and trendy cafes",
+          "plans": []
         },
         {
           "name": "Santa Teresa",
-          "description": "A vibrant bohemian enclave with narrow streets, colorful buildings, and lively nightlife"
+          "description": "A vibrant bohemian enclave with narrow streets, colorful buildings, and lively nightlife",
+          "plans": []
         },
         {
           "name": "Lapa",
-          "description": "A lively entertainment district known for its historic arches, vibrant nightlife, and traditional samba shows"
+          "description": "A lively entertainment district known for its historic arches, vibrant nightlife, and traditional samba shows",
+          "plans": []
         },
         {
           "name": "Copacabana",
-          "description": "A famous neighborhood known for its iconic beaches, bustling nightlife, and vibrant atmosphere"
+          "description": "A famous neighborhood known for its iconic beaches, bustling nightlife, and vibrant atmosphere",
+          "plans": []
         },
         {
           "name": "Jardim Botânico",
-          "description": "A tranquil neighborhood featuring the beautiful Rio de Janeiro Botanical Garden and lush green spaces"
+          "description": "A tranquil neighborhood featuring the beautiful Rio de Janeiro Botanical Garden and lush green spaces",
+          "plans": []
         },
         {
           "name": "Gloria",
-          "description": "A historic area with a diverse cultural scene, local markets, and scenic parks by the bay"
+          "description": "A historic area with a diverse cultural scene, local markets, and scenic parks by the bay",
+          "plans": []
         },
         {
           "name": "Leblon",
-          "description": "An upscale residential neighborhood with high-end shops, sophisticated restaurants, and picturesque beaches"
+          "description": "An upscale residential neighborhood with high-end shops, sophisticated restaurants, and picturesque beaches",
+          "plans": []
         },
         {
           "name": "Barra da Tijuca",
-          "description": "A sprawling neighborhood known for its extensive beaches, large shopping malls, and variety of outdoor activities"
+          "description": "A sprawling neighborhood known for its extensive beaches, large shopping malls, and variety of outdoor activities",
+          "plans": []
         },
         {
           "name": "Flamengo",
-          "description": "A historic area with well-preserved architecture, scenic parks, and a rich cultural scene"
+          "description": "A historic area with well-preserved architecture, scenic parks, and a rich cultural scene",
+          "plans": []
         },
         {
           "name": "Botafogo",
-          "description": "A lively neighborhood known for its stunning views of Sugarloaf Mountain, shopping centers, and thriving food scene"
+          "description": "A lively neighborhood known for its stunning views of Sugarloaf Mountain, shopping centers, and thriving food scene",
+          "plans": []
         },
         {
           "name": "Leme",
-          "description": "A laid-back neighborhood featuring a tranquil beach, popular hiking trails, and a variety of dining options"
+          "description": "A laid-back neighborhood featuring a tranquil beach, popular hiking trails, and a variety of dining options",
+          "plans": []
         },
         {
           "name": "Glória",
-          "description": "A historic district with a vibrant street fair, lush parks, and classic architecture that preserves the city's past"
+          "description": "A historic district with a vibrant street fair, lush parks, and classic architecture that preserves the city's past",
+          "plans": []
         }
       ]
     },
@@ -345,51 +806,63 @@
       "areas": [
         {
           "name": "Downtown Dubai",
-          "description": "Known for its modern architecture including the iconic Burj Khalifa, shopping malls, and dancing fountains."
+          "description": "Known for its modern architecture including the iconic Burj Khalifa, shopping malls, and dancing fountains.",
+          "plans": []
         },
         {
           "name": "Palm Jumeirah",
-          "description": "Famous for its unique palm-tree-shaped island with luxury resorts, high-end dining, and pristine beaches."
+          "description": "Famous for its unique palm-tree-shaped island with luxury resorts, high-end dining, and pristine beaches.",
+          "plans": []
         },
         {
           "name": "Jumeirah Beach Residence",
-          "description": "Popular for its beachfront promenade, The Walk, offering a wide range of shopping and dining options, as well as outdoor leisure activities."
+          "description": "Popular for its beachfront promenade, The Walk, offering a wide range of shopping and dining options, as well as outdoor leisure activities.",
+          "plans": []
         },
         {
           "name": "Global Village",
-          "description": "A world-renowned cultural theme park and market that showcases the culture and items from countries worldwide."
+          "description": "A world-renowned cultural theme park and market that showcases the culture and items from countries worldwide.",
+          "plans": []
         },
         {
           "name": "La Mer",
-          "description": "A vibrant beachfront destination with an array of leisure and entertainment options along with shopping and dining facilities."
+          "description": "A vibrant beachfront destination with an array of leisure and entertainment options along with shopping and dining facilities.",
+          "plans": []
         },
         {
           "name": "Al Seef",
-          "description": "A beautiful waterfront area with a traditional ambiance, boasting various dining, shopping, and heritage experiences."
+          "description": "A beautiful waterfront area with a traditional ambiance, boasting various dining, shopping, and heritage experiences.",
+          "plans": []
         },
         {
           "name": "Dubai Marina",
-          "description": "A luxury waterfront community featuring residential buildings, shopping malls, and a picturesque promenade with a variety of dining options."
+          "description": "A luxury waterfront community featuring residential buildings, shopping malls, and a picturesque promenade with a variety of dining options.",
+          "plans": []
         },
         {
           "name": "Al Fahidi Historical Neighborhood",
-          "description": "A well-preserved historical area showcasing traditional Emirati architecture, museums, and art galleries."
+          "description": "A well-preserved historical area showcasing traditional Emirati architecture, museums, and art galleries.",
+          "plans": []
         },
         {
           "name": "Kite Beach",
-          "description": "A popular beachside destination known for its water sports, scenic views, and a vibrant community atmosphere with numerous food outlets."
+          "description": "A popular beachside destination known for its water sports, scenic views, and a vibrant community atmosphere with numerous food outlets.",
+          "plans": []
         },
         {
           "name": "Madinat Jumeirah",
-          "description": "A luxurious resort that replicates traditional Arab architecture, featuring hotels, restaurants, shops, and a beautiful private beach."
+          "description": "A luxurious resort that replicates traditional Arab architecture, featuring hotels, restaurants, shops, and a beautiful private beach.",
+          "plans": []
         },
         {
           "name": "IMG Worlds of Adventure",
-          "description": "The world's largest indoor theme park featuring thrilling rides, international cartoon characters, and immersive entertainment experiences."
+          "description": "The world's largest indoor theme park featuring thrilling rides, international cartoon characters, and immersive entertainment experiences.",
+          "plans": []
         },
         {
           "name": "City Walk",
-          "description": "An upscale outdoor shopping and entertainment destination, offering an incredible mix of retail, dining, and leisure attractions."
+          "description": "An upscale outdoor shopping and entertainment destination, offering an incredible mix of retail, dining, and leisure attractions.",
+          "plans": []
         }
       ]
     },
@@ -400,51 +873,63 @@
       "areas": [
         {
           "name": "De Pijp",
-          "description": "Known for its vibrant atmosphere and diverse food scene, De Pijp is a lively area with streets filled with bars, cafes, and shops. It is also home to the famous Albert Cuyp Market and Sarphatipark."
+          "description": "Known for its vibrant atmosphere and diverse food scene, De Pijp is a lively area with streets filled with bars, cafes, and shops. It is also home to the famous Albert Cuyp Market and Sarphatipark.",
+          "plans": []
         },
         {
           "name": "Jordaan",
-          "description": "Once a working-class neighborhood, Jordaan is now famous for its trendy boutiques, independent art shops, and charming canals. Notable attractions include the Anne Frank House, the Westerkerk, and the Noordermarkt."
+          "description": "Once a working-class neighborhood, Jordaan is now famous for its trendy boutiques, independent art shops, and charming canals. Notable attractions include the Anne Frank House, the Westerkerk, and the Noordermarkt.",
+          "plans": []
         },
         {
           "name": "Oud-West",
-          "description": "This cosmopolitan district features a unique mix of cultures, making it ideal for shopping, dining, and leisure. Oud-West is home to the Ten Katemarkt, the FoodHallen, and the De Hallen cultural complex."
+          "description": "This cosmopolitan district features a unique mix of cultures, making it ideal for shopping, dining, and leisure. Oud-West is home to the Ten Katemarkt, the FoodHallen, and the De Hallen cultural complex.",
+          "plans": []
         },
         {
           "name": "Museum Quarter",
-          "description": "This prestigious area is known for its impressive collection of art museums, including the Rijksmuseum, the Van Gogh Museum, and the Stedelijk Museum. The relaxing Vondelpark is also nearby."
+          "description": "This prestigious area is known for its impressive collection of art museums, including the Rijksmuseum, the Van Gogh Museum, and the Stedelijk Museum. The relaxing Vondelpark is also nearby.",
+          "plans": []
         },
         {
           "name": "De Wallen",
-          "description": "De Wallen, also known as the Red Light District, is famous for its nightlife, bars, and clubs, as well as its legal brothels and the Old Church. It is a lively area with historical and contemporary attractions."
+          "description": "De Wallen, also known as the Red Light District, is famous for its nightlife, bars, and clubs, as well as its legal brothels and the Old Church. It is a lively area with historical and contemporary attractions.",
+          "plans": []
         },
         {
           "name": "NDSM Wharf",
-          "description": "Once a shipyard, NDSM Wharf is now a thriving cultural hotspot known for its innovative art projects, unique events, and festivals. It's a hotspot for creative minds and holds a variety of street art and exhibition spaces."
+          "description": "Once a shipyard, NDSM Wharf is now a thriving cultural hotspot known for its innovative art projects, unique events, and festivals. It's a hotspot for creative minds and holds a variety of street art and exhibition spaces.",
+          "plans": []
         },
         {
           "name": "Amsterdam Noord",
-          "description": "This alternative side of Amsterdam offers a vibrant atmosphere, including modern cafes, street art, and exhibitions. The area is known for the A'DAM Lookout, EYE Film Institute Netherlands, and urban beach Blijburg aan Zee."
+          "description": "This alternative side of Amsterdam offers a vibrant atmosphere, including modern cafes, street art, and exhibitions. The area is known for the A'DAM Lookout, EYE Film Institute Netherlands, and urban beach Blijburg aan Zee.",
+          "plans": []
         },
         {
           "name": "Leidseplein",
-          "description": "Leidseplein is a bustling square with numerous cafes, restaurants, clubs, theaters, and street performers. It's known for its vibrant nightlife, such as popular theaters like Stadsschouwburg and the Melkweg concert venue."
+          "description": "Leidseplein is a bustling square with numerous cafes, restaurants, clubs, theaters, and street performers. It's known for its vibrant nightlife, such as popular theaters like Stadsschouwburg and the Melkweg concert venue.",
+          "plans": []
         },
         {
           "name": "Rembrandtplein",
-          "description": "This lively square features plenty of bars, restaurants, clubs, and entertainment options. It's known for the spectacular fountains, historic sculptures, and some of Amsterdam's most iconic nightlife spots like Club Escape."
+          "description": "This lively square features plenty of bars, restaurants, clubs, and entertainment options. It's known for the spectacular fountains, historic sculptures, and some of Amsterdam's most iconic nightlife spots like Club Escape.",
+          "plans": []
         },
         {
           "name": "Eastern Docklands",
-          "description": "This modern urban district features iconic examples of modern architecture and design, such as Ceintuurbaan and Cruquius Island. The area is known for its waterfront locations, cafes, and galleries, as well as the NEMO Science Museum."
+          "description": "This modern urban district features iconic examples of modern architecture and design, such as Ceintuurbaan and Cruquius Island. The area is known for its waterfront locations, cafes, and galleries, as well as the NEMO Science Museum.",
+          "plans": []
         },
         {
           "name": "Artis Zoo Quarter",
-          "description": "This area is known for the Artis Royal Zoo, the oldest zoo in the Netherlands, as well as the Hortus Botanicus, one of the world's oldest botanical gardens. It's a perfect spot for nature lovers and families."
+          "description": "This area is known for the Artis Royal Zoo, the oldest zoo in the Netherlands, as well as the Hortus Botanicus, one of the world's oldest botanical gardens. It's a perfect spot for nature lovers and families.",
+          "plans": []
         },
         {
           "name": "Spiegelkwartier",
-          "description": "As the center of Amsterdam's antiques and art trade, Spiegelkwartier is home to numerous antique stores, galleries, and auction houses. This picturesque area with charming canals is located near the Rijksmuseum and other cultural attractions."
+          "description": "As the center of Amsterdam's antiques and art trade, Spiegelkwartier is home to numerous antique stores, galleries, and auction houses. This picturesque area with charming canals is located near the Rijksmuseum and other cultural attractions.",
+          "plans": []
         }
       ]
     },
@@ -455,55 +940,68 @@
       "areas": [
         {
           "name": "V&A Waterfront",
-          "description": "A popular shopping destination with a vibrant harbor, various entertainment options, and a stunning view of Table Mountain"
+          "description": "A popular shopping destination with a vibrant harbor, various entertainment options, and a stunning view of Table Mountain",
+          "plans": []
         },
         {
           "name": "Camps Bay",
-          "description": "A fashionable residential area known for its palm-lined beach, luxurious beachfront properties, elegant restaurants, and trendy bars"
+          "description": "A fashionable residential area known for its palm-lined beach, luxurious beachfront properties, elegant restaurants, and trendy bars",
+          "plans": []
         },
         {
           "name": "Kirstenbosch National Botanical Garden",
-          "description": "A world-renowned botanical garden nestled at the eastern foot of Table Mountain, featuring diverse flora, walking trails, and stunning landscape designs"
+          "description": "A world-renowned botanical garden nestled at the eastern foot of Table Mountain, featuring diverse flora, walking trails, and stunning landscape designs",
+          "plans": []
         },
         {
           "name": "Muizenberg",
-          "description": "A coastal suburb known for its vibrant and iconic brightly colored beach huts, popular surfing spots, and charming eateries"
+          "description": "A coastal suburb known for its vibrant and iconic brightly colored beach huts, popular surfing spots, and charming eateries",
+          "plans": []
         },
         {
           "name": "Bo-Kaap",
-          "description": "A historical area nestled on the slopes of Signal Hill, famous for its brightly colored houses, cobblestoned streets, and rich Cape Malay culture"
+          "description": "A historical area nestled on the slopes of Signal Hill, famous for its brightly colored houses, cobblestoned streets, and rich Cape Malay culture",
+          "plans": []
         },
         {
           "name": "Constantia",
-          "description": "A prestigious suburb known for its luxurious estates, stunning vineyards, and the historic Groot Constantia wine estate"
+          "description": "A prestigious suburb known for its luxurious estates, stunning vineyards, and the historic Groot Constantia wine estate",
+          "plans": []
         },
         {
           "name": "Sea Point",
-          "description": "A bustling oceanfront area offering a scenic promenade, numerous dining options, and a lively atmosphere perfect for outdoor activities"
+          "description": "A bustling oceanfront area offering a scenic promenade, numerous dining options, and a lively atmosphere perfect for outdoor activities",
+          "plans": []
         },
         {
           "name": "Hout Bay",
-          "description": "A picturesque fishing village surrounded by mountains, offering a beautiful marina, the World of Birds Wildlife Sanctuary, and various local markets"
+          "description": "A picturesque fishing village surrounded by mountains, offering a beautiful marina, the World of Birds Wildlife Sanctuary, and various local markets",
+          "plans": []
         },
         {
           "name": "Noordhoek",
-          "description": "A tranquil rural community featuring a scenic beach, horse riding experiences, and the unique Cape Point Vineyards"
+          "description": "A tranquil rural community featuring a scenic beach, horse riding experiences, and the unique Cape Point Vineyards",
+          "plans": []
         },
         {
           "name": "Clifton",
-          "description": "An affluent suburb boasting stunning, sheltered beaches, luxurious real estate, and vibrant nightlife"
+          "description": "An affluent suburb boasting stunning, sheltered beaches, luxurious real estate, and vibrant nightlife",
+          "plans": []
         },
         {
           "name": "Kalk Bay",
-          "description": "A charming fishing village offering vibrant art galleries, trendy cafes, antique stores, and a working harbor with fresh seafood stalls"
+          "description": "A charming fishing village offering vibrant art galleries, trendy cafes, antique stores, and a working harbor with fresh seafood stalls",
+          "plans": []
         },
         {
           "name": "Camp's Bay",
-          "description": "Known for its beautiful white sand beach and vibrant nightlife scene."
+          "description": "Known for its beautiful white sand beach and vibrant nightlife scene.",
+          "plans": []
         },
         {
           "name": "Woodstock",
-          "description": "An edgy, up-and-coming neighborhood with great street art and trendy eateries."
+          "description": "An edgy, up-and-coming neighborhood with great street art and trendy eateries.",
+          "plans": []
         }
       ]
     },
@@ -514,51 +1012,63 @@
       "areas": [
         {
           "name": "Thonglor",
-          "description": "Favorite hangout spot for locals and expats, known for its trendy bars, restaurants, and clubs"
+          "description": "Favorite hangout spot for locals and expats, known for its trendy bars, restaurants, and clubs",
+          "plans": []
         },
         {
           "name": "Khaosan Road",
-          "description": "Famous street known for backpackers, vibrant nightlife, shopping, street food, and temples"
+          "description": "Famous street known for backpackers, vibrant nightlife, shopping, street food, and temples",
+          "plans": []
         },
         {
           "name": "Chinatown",
-          "description": "The biggest Chinatown in Thailand, known for its street markets, street food, and cultural landmarks"
+          "description": "The biggest Chinatown in Thailand, known for its street markets, street food, and cultural landmarks",
+          "plans": []
         },
         {
           "name": "Sathorn",
-          "description": "Business district with modern skyscrapers, luxury malls, and popular nightlife spots"
+          "description": "Business district with modern skyscrapers, luxury malls, and popular nightlife spots",
+          "plans": []
         },
         {
           "name": "Ari",
-          "description": "Hipster neighborhood with cozy cafes, art galleries, and street food stalls"
+          "description": "Hipster neighborhood with cozy cafes, art galleries, and street food stalls",
+          "plans": []
         },
         {
           "name": "Ekkamai",
-          "description": "Up-and-coming neighborhood known for its trendy cafes, bars, and restaurants"
+          "description": "Up-and-coming neighborhood known for its trendy cafes, bars, and restaurants",
+          "plans": []
         },
         {
           "name": "Ratchadapisek",
-          "description": "Lively nightlife district with a mix of bars, pubs, nightclubs, and live music venues"
+          "description": "Lively nightlife district with a mix of bars, pubs, nightclubs, and live music venues",
+          "plans": []
         },
         {
           "name": "Phra Khanong",
-          "description": "Cosmopolitan area known for its fusion restaurants, craft beer bars, and street art"
+          "description": "Cosmopolitan area known for its fusion restaurants, craft beer bars, and street art",
+          "plans": []
         },
         {
           "name": "Silom",
-          "description": "Business and entertainment district with world-class hotels, restaurants, and shopping centers"
+          "description": "Business and entertainment district with world-class hotels, restaurants, and shopping centers",
+          "plans": []
         },
         {
           "name": "Thonburi",
-          "description": "Historical neighborhood across the Chao Phraya river, known for its temples, palaces, and local markets"
+          "description": "Historical neighborhood across the Chao Phraya river, known for its temples, palaces, and local markets",
+          "plans": []
         },
         {
           "name": "Ramkhamhaeng",
-          "description": "Large residential area with plenty of malls, restaurants, and local markets"
+          "description": "Large residential area with plenty of malls, restaurants, and local markets",
+          "plans": []
         },
         {
           "name": "Sukhumvit",
-          "description": "Popular residential and commercial area with a wide range of shopping, dining, and entertainment options"
+          "description": "Popular residential and commercial area with a wide range of shopping, dining, and entertainment options",
+          "plans": []
         }
       ]
     },
@@ -569,51 +1079,63 @@
       "areas": [
         {
           "name": "Kreuzberg",
-          "description": "Known for its vibrant nightlife, multicultural atmosphere, and street art"
+          "description": "Known for its vibrant nightlife, multicultural atmosphere, and street art",
+          "plans": []
         },
         {
           "name": "Neukölln",
-          "description": "Known for its trendy bars, cafes, and art galleries"
+          "description": "Known for its trendy bars, cafes, and art galleries",
+          "plans": []
         },
         {
           "name": "Prenzlauer Berg",
-          "description": "Known for its bohemian charm, boutique shops, and cozy cafes"
+          "description": "Known for its bohemian charm, boutique shops, and cozy cafes",
+          "plans": []
         },
         {
           "name": "Friedrichshain",
-          "description": "Known for its alternative culture, techno clubs, and street markets"
+          "description": "Known for its alternative culture, techno clubs, and street markets",
+          "plans": []
         },
         {
           "name": "Charlottenburg",
-          "description": "Known for its high-end shopping, majestic architecture, and elegant cafes"
+          "description": "Known for its high-end shopping, majestic architecture, and elegant cafes",
+          "plans": []
         },
         {
           "name": "Mitte",
-          "description": "Known for its historic landmarks, museums, and trendy restaurants"
+          "description": "Known for its historic landmarks, museums, and trendy restaurants",
+          "plans": []
         },
         {
           "name": "Schöneberg",
-          "description": "Known for its LGBT community, street festivals, and food scene"
+          "description": "Known for its LGBT community, street festivals, and food scene",
+          "plans": []
         },
         {
           "name": "Wedding",
-          "description": "Known for its diverse population, street markets, and indie music scene"
+          "description": "Known for its diverse population, street markets, and indie music scene",
+          "plans": []
         },
         {
           "name": "Moabit",
-          "description": "Known for its green spaces, charming cafes, and historic landmarks"
+          "description": "Known for its green spaces, charming cafes, and historic landmarks",
+          "plans": []
         },
         {
           "name": "Tempelhof",
-          "description": "Known for its large park and former airport turned public space"
+          "description": "Known for its large park and former airport turned public space",
+          "plans": []
         },
         {
           "name": "Köpenick",
-          "description": "Known for its historic center, forested areas, and waterfront"
+          "description": "Known for its historic center, forested areas, and waterfront",
+          "plans": []
         },
         {
           "name": "Treptow",
-          "description": "Known for its parks, lakes, and industrial heritage"
+          "description": "Known for its parks, lakes, and industrial heritage",
+          "plans": []
         }
       ]
     },
@@ -624,55 +1146,68 @@
       "areas": [
         {
           "name": "Gastown",
-          "description": "Known for its historic charm, trendy restaurants, and unique shops"
+          "description": "Known for its historic charm, trendy restaurants, and unique shops",
+          "plans": []
         },
         {
           "name": "Coal Harbour",
-          "description": "Known for its stunning views of the North Shore mountains and scenic seawall"
+          "description": "Known for its stunning views of the North Shore mountains and scenic seawall",
+          "plans": []
         },
         {
           "name": "Mount Pleasant",
-          "description": "Known for its bustling craft brewery scene, trendy boutiques, and popular weekend farmers market"
+          "description": "Known for its bustling craft brewery scene, trendy boutiques, and popular weekend farmers market",
+          "plans": []
         },
         {
           "name": "Yaletown",
-          "description": "Known for its upscale eateries, popular nightclubs, and converted heritage buildings"
+          "description": "Known for its upscale eateries, popular nightclubs, and converted heritage buildings",
+          "plans": []
         },
         {
           "name": "Kitsilano",
-          "description": "Known for its laid-back vibe, sandy beaches, and outdoor recreation opportunities"
+          "description": "Known for its laid-back vibe, sandy beaches, and outdoor recreation opportunities",
+          "plans": []
         },
         {
           "name": "Commercial Drive",
-          "description": "Known for its diverse community, independent shops, and vibrant arts scene"
+          "description": "Known for its diverse community, independent shops, and vibrant arts scene",
+          "plans": []
         },
         {
           "name": "Chinatown",
-          "description": "Known for its historic architecture, unique shops, and delicious dining options"
+          "description": "Known for its historic architecture, unique shops, and delicious dining options",
+          "plans": []
         },
         {
           "name": "West End",
-          "description": "Known for its beautiful Stanley Park, scenic English Bay, and lively Davie Village"
+          "description": "Known for its beautiful Stanley Park, scenic English Bay, and lively Davie Village",
+          "plans": []
         },
         {
           "name": "Granville Island",
-          "description": "Known for its bustling public market, street performers, and foodie-friendly restaurants"
+          "description": "Known for its bustling public market, street performers, and foodie-friendly restaurants",
+          "plans": []
         },
         {
           "name": "Cambie Village",
-          "description": "Known for its trendy cafes and restaurants, independent boutiques, and historic Queen Elizabeth Park"
+          "description": "Known for its trendy cafes and restaurants, independent boutiques, and historic Queen Elizabeth Park",
+          "plans": []
         },
         {
           "name": "Main Street",
-          "description": "Known for its hip coffee shops, funky vintage stores, and popular eateries"
+          "description": "Known for its hip coffee shops, funky vintage stores, and popular eateries",
+          "plans": []
         },
         {
           "name": "Downtown",
-          "description": "Known for its high-rise office buildings, chic boutiques, and entertainment venues like Rogers Arena and BC Place"
+          "description": "Known for its high-rise office buildings, chic boutiques, and entertainment venues like Rogers Arena and BC Place",
+          "plans": []
         },
         {
           "name": "North Shore",
-          "description": "Known for its breathtaking natural beauty, including towering mountains, dense forests, and scenic waterways"
+          "description": "Known for its breathtaking natural beauty, including towering mountains, dense forests, and scenic waterways",
+          "plans": []
         }
       ]
     },
@@ -683,55 +1218,68 @@
       "areas": [
         {
           "name": "Myeong-dong",
-          "description": "known for shopping and street food"
+          "description": "known for shopping and street food",
+          "plans": []
         },
         {
           "name": "Hongdae",
-          "description": "known for nightlife, street performances, and indie culture"
+          "description": "known for nightlife, street performances, and indie culture",
+          "plans": []
         },
         {
           "name": "Insadong",
-          "description": "known for traditional culture, crafts, and tea houses"
+          "description": "known for traditional culture, crafts, and tea houses",
+          "plans": []
         },
         {
           "name": "Gangnam",
-          "description": "known for upscale shopping, entertainment, and K-pop"
+          "description": "known for upscale shopping, entertainment, and K-pop",
+          "plans": []
         },
         {
           "name": "Itaewon",
-          "description": "known for international cuisine, nightlife, and shopping"
+          "description": "known for international cuisine, nightlife, and shopping",
+          "plans": []
         },
         {
           "name": "Sinchon",
-          "description": "known for college town vibe, inexpensive food and shopping"
+          "description": "known for college town vibe, inexpensive food and shopping",
+          "plans": []
         },
         {
           "name": "Yeouido",
-          "description": "known for government and banking districts, parks, and bike trails"
+          "description": "known for government and banking districts, parks, and bike trails",
+          "plans": []
         },
         {
           "name": "Gwanghwamun",
-          "description": "known for historical landmarks, museums, and palaces"
+          "description": "known for historical landmarks, museums, and palaces",
+          "plans": []
         },
         {
           "name": "Jamsil",
-          "description": "known for large outdoor arena, theme parks, and lake"
+          "description": "known for large outdoor arena, theme parks, and lake",
+          "plans": []
         },
         {
           "name": "Cheongdam-dong",
-          "description": "known for luxury brand stores, fine dining, and celebrity sightings"
+          "description": "known for luxury brand stores, fine dining, and celebrity sightings",
+          "plans": []
         },
         {
           "name": "Seorae Village",
-          "description": "known for French and fusion cuisine, upscale shopping, and cafes"
+          "description": "known for French and fusion cuisine, upscale shopping, and cafes",
+          "plans": []
         },
         {
           "name": "Apgujeong",
-          "description": "known for high-end boutiques, plastic surgery clinics, and nightlife"
+          "description": "known for high-end boutiques, plastic surgery clinics, and nightlife",
+          "plans": []
         },
         {
           "name": "Daehangno",
-          "description": "known for theatre, street performances, and affordable restaurants"
+          "description": "known for theatre, street performances, and affordable restaurants",
+          "plans": []
         }
       ]
     },
@@ -742,51 +1290,63 @@
       "areas": [
         {
           "name": "Recoleta",
-          "description": "Upscale neighborhood known for its historic cemetery, museums, and stylish cafes."
+          "description": "Upscale neighborhood known for its historic cemetery, museums, and stylish cafes.",
+          "plans": []
         },
         {
           "name": "Puerto Madero",
-          "description": "Former port transformed into a trendy hotspot for nightlife, fine dining, and luxury hotels."
+          "description": "Former port transformed into a trendy hotspot for nightlife, fine dining, and luxury hotels.",
+          "plans": []
         },
         {
           "name": "San Telmo",
-          "description": "Charming neighborhood with cobblestone streets, tango shows, antique markets, and street performers."
+          "description": "Charming neighborhood with cobblestone streets, tango shows, antique markets, and street performers.",
+          "plans": []
         },
         {
           "name": "Palermo",
-          "description": "Vibrant area with parks, gardens, upscale boutiques, diverse dining scene, and bustling nightlife."
+          "description": "Vibrant area with parks, gardens, upscale boutiques, diverse dining scene, and bustling nightlife.",
+          "plans": []
         },
         {
           "name": "La Boca",
-          "description": "Colorful district known for its soccer stadium, street art, tango culture, and Italian heritage."
+          "description": "Colorful district known for its soccer stadium, street art, tango culture, and Italian heritage.",
+          "plans": []
         },
         {
           "name": "Belgrano",
-          "description": "Residential area with a mix of modern and traditional architecture, parks, and cultural institutions."
+          "description": "Residential area with a mix of modern and traditional architecture, parks, and cultural institutions.",
+          "plans": []
         },
         {
           "name": "Villa Crespo",
-          "description": "Up-and-coming neighborhood with a bohemian vibe, trendy bars, restaurants, and independent shops."
+          "description": "Up-and-coming neighborhood with a bohemian vibe, trendy bars, restaurants, and independent shops.",
+          "plans": []
         },
         {
           "name": "Colegiales",
-          "description": "Quiet and residential area with tree-lined streets, cozy cafes, and art galleries."
+          "description": "Quiet and residential area with tree-lined streets, cozy cafes, and art galleries.",
+          "plans": []
         },
         {
           "name": "Caballito",
-          "description": "Central neighborhood with a family-friendly atmosphere, parks, shopping malls, and historic architecture."
+          "description": "Central neighborhood with a family-friendly atmosphere, parks, shopping malls, and historic architecture.",
+          "plans": []
         },
         {
           "name": "Retiro",
-          "description": "Downtown district with grand plazas, high-end hotels, and the famous Retiro train station."
+          "description": "Downtown district with grand plazas, high-end hotels, and the famous Retiro train station.",
+          "plans": []
         },
         {
           "name": "Almagro",
-          "description": "Bohemian and multicultural neighborhood with theaters, pubs, and tango clubs."
+          "description": "Bohemian and multicultural neighborhood with theaters, pubs, and tango clubs.",
+          "plans": []
         },
         {
           "name": "Saavedra",
-          "description": "Green residential area with parks, a lake, and the historic Saavedra Palace."
+          "description": "Green residential area with parks, a lake, and the historic Saavedra Palace.",
+          "plans": []
         }
       ]
     },
@@ -797,51 +1357,63 @@
       "areas": [
         {
           "name": "Medina",
-          "description": "Known for its bustling souks, traditional Moroccan architecture, and historic landmarks like the Koutoubia Mosque"
+          "description": "Known for its bustling souks, traditional Moroccan architecture, and historic landmarks like the Koutoubia Mosque",
+          "plans": []
         },
         {
           "name": "Gueliz",
-          "description": "A modern and trendy district, filled with chic cafes, nightlife spots, art galleries, and higher-end shops"
+          "description": "A modern and trendy district, filled with chic cafes, nightlife spots, art galleries, and higher-end shops",
+          "plans": []
         },
         {
           "name": "Hivernage",
-          "description": "A popular upscale area with luxury hotels, spas, and restaurants, as well as a number of casinos and nightclubs"
+          "description": "A popular upscale area with luxury hotels, spas, and restaurants, as well as a number of casinos and nightclubs",
+          "plans": []
         },
         {
           "name": "Agdal",
-          "description": "A residential neighborhood with many parks and gardens, the area also has restaurants, shops and cafés lining its Boulevard Mohamed 6"
+          "description": "A residential neighborhood with many parks and gardens, the area also has restaurants, shops and cafés lining its Boulevard Mohamed 6",
+          "plans": []
         },
         {
           "name": "Palmeraie",
-          "description": "An oasis of palm groves with luxury villas, golf courses, and resorts, as well as a number of traditional restaurants and camel rides"
+          "description": "An oasis of palm groves with luxury villas, golf courses, and resorts, as well as a number of traditional restaurants and camel rides",
+          "plans": []
         },
         {
           "name": "Marrakech Hinterland",
-          "description": "A scenic area surrounding Marrakesh that offers a glimpse into traditional Berber culture and agriculture, with activities like hiking, camel trekking, and visiting local markets"
+          "description": "A scenic area surrounding Marrakesh that offers a glimpse into traditional Berber culture and agriculture, with activities like hiking, camel trekking, and visiting local markets",
+          "plans": []
         },
         {
           "name": "Kasbah",
-          "description": "A historic district with ancient fortified walls, ornate palaces and the famous Saadian Tombs"
+          "description": "A historic district with ancient fortified walls, ornate palaces and the famous Saadian Tombs",
+          "plans": []
         },
         {
           "name": "Mellah",
-          "description": "A Jewish quarter known for its vibrant markets, spice shops, and culture"
+          "description": "A Jewish quarter known for its vibrant markets, spice shops, and culture",
+          "plans": []
         },
         {
           "name": "Guemassa",
-          "description": "A mining town located in the Atlas Mountains, recognized for its terraced fields, Berber culture and role in the country's mining industry"
+          "description": "A mining town located in the Atlas Mountains, recognized for its terraced fields, Berber culture and role in the country's mining industry",
+          "plans": []
         },
         {
           "name": "Sidi Ghanem",
-          "description": "A commercial and industrial zone, known for its designer boutiques, home decoration stores, and art galleries"
+          "description": "A commercial and industrial zone, known for its designer boutiques, home decoration stores, and art galleries",
+          "plans": []
         },
         {
           "name": "Bab Doukkala",
-          "description": "A bustling and vibrant neighborhood with a large daily market, historic mosques, and riads"
+          "description": "A bustling and vibrant neighborhood with a large daily market, historic mosques, and riads",
+          "plans": []
         },
         {
           "name": "Azrou",
-          "description": "A Berber market town situated in the middle Atlas Mountains, known for its cedar forest, fresh air, and scenic beauty"
+          "description": "A Berber market town situated in the middle Atlas Mountains, known for its cedar forest, fresh air, and scenic beauty",
+          "plans": []
         }
       ]
     },
@@ -852,51 +1424,63 @@
       "areas": [
         {
           "name": "Ponsonby",
-          "description": "Known for its trendy restaurants, bars, and unique boutique shops."
+          "description": "Known for its trendy restaurants, bars, and unique boutique shops.",
+          "plans": []
         },
         {
           "name": "Devonport",
-          "description": "A picturesque seaside village with a rich maritime history, featuring cafes, galleries, and boutique shopping."
+          "description": "A picturesque seaside village with a rich maritime history, featuring cafes, galleries, and boutique shopping.",
+          "plans": []
         },
         {
           "name": "Matakana",
-          "description": "A popular weekend destination with a thriving food and wine scene, featuring a farmer's market, art galleries, and outdoor activities."
+          "description": "A popular weekend destination with a thriving food and wine scene, featuring a farmer's market, art galleries, and outdoor activities.",
+          "plans": []
         },
         {
           "name": "Titirangi",
-          "description": "A suburb at the edge of the Waitakere Ranges, known for its cafes, art galleries, and natural beauty."
+          "description": "A suburb at the edge of the Waitakere Ranges, known for its cafes, art galleries, and natural beauty.",
+          "plans": []
         },
         {
           "name": "Mission Bay",
-          "description": "A beachside suburb with a lively promenade featuring cafes, restaurants, and a cinema."
+          "description": "A beachside suburb with a lively promenade featuring cafes, restaurants, and a cinema.",
+          "plans": []
         },
         {
           "name": "Waiheke Island",
-          "description": "An island paradise just a short ferry ride from Auckland, with vineyards, stunning beaches, and outdoor activities."
+          "description": "An island paradise just a short ferry ride from Auckland, with vineyards, stunning beaches, and outdoor activities.",
+          "plans": []
         },
         {
           "name": "Mount Eden",
-          "description": "A dormant volcano with a stunning viewpoint of the city, surrounded by quirky shops, cafes, and restaurants."
+          "description": "A dormant volcano with a stunning viewpoint of the city, surrounded by quirky shops, cafes, and restaurants.",
+          "plans": []
         },
         {
           "name": "Parnell",
-          "description": "An upscale suburb with historic charm, featuring art galleries, antique shops, and fine dining restaurants."
+          "description": "An upscale suburb with historic charm, featuring art galleries, antique shops, and fine dining restaurants.",
+          "plans": []
         },
         {
           "name": "Takapuna",
-          "description": "A popular beach destination with a bustling town center, featuring cafes, restaurants, and boutique shopping."
+          "description": "A popular beach destination with a bustling town center, featuring cafes, restaurants, and boutique shopping.",
+          "plans": []
         },
         {
           "name": "Newmarket",
-          "description": "A shopping mecca with numerous designer boutiques, popular chain stores, and trendy cafes."
+          "description": "A shopping mecca with numerous designer boutiques, popular chain stores, and trendy cafes.",
+          "plans": []
         },
         {
           "name": "K Road",
-          "description": "An eclectic street with a mix of quirky shops, vintage boutiques, and multicultural food options."
+          "description": "An eclectic street with a mix of quirky shops, vintage boutiques, and multicultural food options.",
+          "plans": []
         },
         {
           "name": "Orakei",
-          "description": "A waterfront suburb with stunning views of the harbor, featuring elegant homes and boutique shopping options."
+          "description": "A waterfront suburb with stunning views of the harbor, featuring elegant homes and boutique shopping options.",
+          "plans": []
         }
       ]
     },
@@ -907,55 +1491,68 @@
       "areas": [
         {
           "name": "Old Town",
-          "description": "Known for its rich history and architecture, including Edinburgh Castle and the Royal Mile."
+          "description": "Known for its rich history and architecture, including Edinburgh Castle and the Royal Mile.",
+          "plans": []
         },
         {
           "name": "New Town",
-          "description": "Known for its elegant Georgian architecture, boutique shopping, and cultural institutions like the National Gallery of Scotland."
+          "description": "Known for its elegant Georgian architecture, boutique shopping, and cultural institutions like the National Gallery of Scotland.",
+          "plans": []
         },
         {
           "name": "Stockbridge",
-          "description": "A bohemian neighborhood known for its boutique shopping, farmers market, and artistic community."
+          "description": "A bohemian neighborhood known for its boutique shopping, farmers market, and artistic community.",
+          "plans": []
         },
         {
           "name": "Leith",
-          "description": "A vibrant port neighborhood known for its independent restaurants, pubs, and art scene."
+          "description": "A vibrant port neighborhood known for its independent restaurants, pubs, and art scene.",
+          "plans": []
         },
         {
           "name": "Haymarket",
-          "description": "A bustling area with plenty of shops, local markets, and great eateries."
+          "description": "A bustling area with plenty of shops, local markets, and great eateries.",
+          "plans": []
         },
         {
           "name": "Morningside",
-          "description": "A serene neighborhood with green spaces, tea rooms, and independent shops."
+          "description": "A serene neighborhood with green spaces, tea rooms, and independent shops.",
+          "plans": []
         },
         {
           "name": "Broughton",
-          "description": "A historic neighborhood renowned for its independent coffee shops, quirky bars, and cozy pubs."
+          "description": "A historic neighborhood renowned for its independent coffee shops, quirky bars, and cozy pubs.",
+          "plans": []
         },
         {
           "name": "Grassmarket",
-          "description": "A historic market square with eclectic shops, restaurants, and bars overlooking Edinburgh Castle."
+          "description": "A historic market square with eclectic shops, restaurants, and bars overlooking Edinburgh Castle.",
+          "plans": []
         },
         {
           "name": "Marchmont",
-          "description": "A trendy neighborhood with independent shops, cafes, and restaurants, popular among university students and young professionals."
+          "description": "A trendy neighborhood with independent shops, cafes, and restaurants, popular among university students and young professionals.",
+          "plans": []
         },
         {
           "name": "Bruntsfield",
-          "description": "A picturesque neighborhood featuring upscale shops, cafes, restaurants, and a public park."
+          "description": "A picturesque neighborhood featuring upscale shops, cafes, restaurants, and a public park.",
+          "plans": []
         },
         {
           "name": "Newington",
-          "description": "A lively neighborhood with plenty of shops, restaurants, pubs, and featuring the beautiful University of Edinburgh campus."
+          "description": "A lively neighborhood with plenty of shops, restaurants, pubs, and featuring the beautiful University of Edinburgh campus.",
+          "plans": []
         },
         {
           "name": "Corstorphine",
-          "description": "A suburb with a village atmosphere, featuring independent shops, restaurants, and the 15th-century Corstorphine Parish Church."
+          "description": "A suburb with a village atmosphere, featuring independent shops, restaurants, and the 15th-century Corstorphine Parish Church.",
+          "plans": []
         },
         {
           "name": "Portobello",
-          "description": "A coastal suburb known for its beach, seafront promenade, and atmospheric pubs and cafes."
+          "description": "A coastal suburb known for its beach, seafront promenade, and atmospheric pubs and cafes.",
+          "plans": []
         }
       ]
     },
@@ -966,71 +1563,88 @@
       "areas": [
         {
           "name": "Mile End",
-          "description": "Known for its indie boutiques, vintage shops, trendy cafes, and hip restaurants."
+          "description": "Known for its indie boutiques, vintage shops, trendy cafes, and hip restaurants.",
+          "plans": []
         },
         {
           "name": "Le Plateau-Mont-Royal",
-          "description": "A vibrant and diverse neighborhood with a lively arts scene, trendy bars, and restaurants."
+          "description": "A vibrant and diverse neighborhood with a lively arts scene, trendy bars, and restaurants.",
+          "plans": []
         },
         {
           "name": "Vieux-Montreal",
-          "description": "Montreal's historic district with charming cobblestone streets, horse-drawn carriages, and beautiful architecture."
+          "description": "Montreal's historic district with charming cobblestone streets, horse-drawn carriages, and beautiful architecture.",
+          "plans": []
         },
         {
           "name": "Griffintown",
-          "description": "A trendy neighborhood with converted factories that now house chic restaurants, bars, and art galleries."
+          "description": "A trendy neighborhood with converted factories that now house chic restaurants, bars, and art galleries.",
+          "plans": []
         },
         {
           "name": "Rosemont-La Petite-Patrie",
-          "description": "A peaceful and residential neighborhood with lovely parks and green spaces, great food markets, and artisanal bakeries."
+          "description": "A peaceful and residential neighborhood with lovely parks and green spaces, great food markets, and artisanal bakeries.",
+          "plans": []
         },
         {
           "name": "The Village",
-          "description": "A lively LGBTQ+ neighborhood known for its vibrant nightlife and community events."
+          "description": "A lively LGBTQ+ neighborhood known for its vibrant nightlife and community events.",
+          "plans": []
         },
         {
           "name": "Outremont",
-          "description": "A stylish and upscale neighborhood with beautiful parks, luxury shopping, and excellent restaurants."
+          "description": "A stylish and upscale neighborhood with beautiful parks, luxury shopping, and excellent restaurants.",
+          "plans": []
         },
         {
           "name": "Little Italy",
-          "description": "A colorful and vibrant neighborhood with authentic Italian restaurants, cafes, and specialty food shops."
+          "description": "A colorful and vibrant neighborhood with authentic Italian restaurants, cafes, and specialty food shops.",
+          "plans": []
         },
         {
           "name": "Saint-Henri",
-          "description": "A trendy and up-and-coming neighborhood with a growing food scene, craft breweries, and artsy boutiques."
+          "description": "A trendy and up-and-coming neighborhood with a growing food scene, craft breweries, and artsy boutiques.",
+          "plans": []
         },
         {
           "name": "Cote-des-Neiges",
-          "description": "A multicultural neighborhood with excellent international food, shopping, and the iconic Saint Joseph's Oratory."
+          "description": "A multicultural neighborhood with excellent international food, shopping, and the iconic Saint Joseph's Oratory.",
+          "plans": []
         },
         {
           "name": "Saint Laurent Boulevard",
-          "description": "One of Montreal's busiest and most vibrant streets with an eclectic mix of restaurants, bars, and shops."
+          "description": "One of Montreal's busiest and most vibrant streets with an eclectic mix of restaurants, bars, and shops.",
+          "plans": []
         },
         {
           "name": "Verdun",
-          "description": "A charming neighborhood with beautiful parks, great bike paths, and a vibrant commercial street - Wellington."
+          "description": "A charming neighborhood with beautiful parks, great bike paths, and a vibrant commercial street - Wellington.",
+          "plans": []
         },
         {
           "name": "Chinatown",
-          "description": "A colorful and bustling neighborhood with Asian groceries, shops, and restaurants, and iconic landmarks like the fantastical Paifang gateway."
+          "description": "A colorful and bustling neighborhood with Asian groceries, shops, and restaurants, and iconic landmarks like the fantastical Paifang gateway.",
+          "plans": []
         },
         {
           "name": "Pointe-Saint-Charles",
-          "description": "A historic and evolving neighborhood with loads of community spirit, great green spaces like Parc du Canal-de-Lachine, and hidden gems like Alaska Patinoire (a skating rink right on the canal)."
+          "description": "A historic and evolving neighborhood with loads of community spirit, great green spaces like Parc du Canal-de-Lachine, and hidden gems like Alaska Patinoire (a skating rink right on the canal).",
+          "plans": []
         },
         {
           "name": "La Petite-Bourgogne",
-          "description": "Also called Little Burgundy, this is a diverse neighborhood known for its Jazz Festival, delicious Caribbean eateries, and its landmark Atwater Market."
+          "description": "Also called Little Burgundy, this is a diverse neighborhood known for its Jazz Festival, delicious Caribbean eateries, and its landmark Atwater Market.",
+          "plans": []
         },
         {
           "name": "Grévin Montréal",
-          "description": "Grévin Montréal is the city's wax museum, located in downtown Montreal, on Saint Catherine Street West. It has over 120 characters and 16 themes to discover, including Quebec stars, international personalities, and historical figures."
+          "description": "Grévin Montréal is the city's wax museum, located in downtown Montreal, on Saint Catherine Street West. It has over 120 characters and 16 themes to discover, including Quebec stars, international personalities, and historical figures.",
+          "plans": []
         },
         {
           "name": "The Montreal Museum of Fine Arts",
-          "description": "The Montreal Museum of Fine Arts is an art museum in Montreal, Quebec, Canada. It is the largest art museum in Canada and one of the most prominent in North America, with a collection of more than 43,000 works."
+          "description": "The Montreal Museum of Fine Arts is an art museum in Montreal, Quebec, Canada. It is the largest art museum in Canada and one of the most prominent in North America, with a collection of more than 43,000 works.",
+          "plans": []
         }
       ]
     },
@@ -1041,55 +1655,68 @@
       "areas": [
         {
           "name": "Bryggen",
-          "description": "Historic district known for its colorful wooden houses and unique architecture"
+          "description": "Historic district known for its colorful wooden houses and unique architecture",
+          "plans": []
         },
         {
           "name": "Fløyen",
-          "description": "Mountain overlooking Bergen with hiking trails and stunning views of the city"
+          "description": "Mountain overlooking Bergen with hiking trails and stunning views of the city",
+          "plans": []
         },
         {
           "name": "Nordnes",
-          "description": "Charming neighborhood with a park, aquarium, and beach"
+          "description": "Charming neighborhood with a park, aquarium, and beach",
+          "plans": []
         },
         {
           "name": "Nygårdshøyden",
-          "description": "University district with museums, parks, and a botanical garden"
+          "description": "University district with museums, parks, and a botanical garden",
+          "plans": []
         },
         {
           "name": "Sandviken",
-          "description": "Picturesque neighborhood with old streets and traditional wooden houses"
+          "description": "Picturesque neighborhood with old streets and traditional wooden houses",
+          "plans": []
         },
         {
           "name": "Solheimsviken",
-          "description": "Up-and-coming area with new apartments, offices, and restaurants"
+          "description": "Up-and-coming area with new apartments, offices, and restaurants",
+          "plans": []
         },
         {
           "name": "Verftet",
-          "description": "Former shipyard transformed into a cultural hub with music venues, art galleries, and restaurants"
+          "description": "Former shipyard transformed into a cultural hub with music venues, art galleries, and restaurants",
+          "plans": []
         },
         {
           "name": "Ulriken",
-          "description": "The highest mountain in Bergen with a cable car and scenic views"
+          "description": "The highest mountain in Bergen with a cable car and scenic views",
+          "plans": []
         },
         {
           "name": "Helleneset",
-          "description": "Coastal area with beaches, hiking trails, and a lighthouse"
+          "description": "Coastal area with beaches, hiking trails, and a lighthouse",
+          "plans": []
         },
         {
           "name": "Starefossen",
-          "description": "Waterfall located in a scenic valley with hiking trails and picnic areas"
+          "description": "Waterfall located in a scenic valley with hiking trails and picnic areas",
+          "plans": []
         },
         {
           "name": "Fisketorget",
-          "description": "Fish market that has been operating since the 1200s, offering fresh seafood and other local products"
+          "description": "Fish market that has been operating since the 1200s, offering fresh seafood and other local products",
+          "plans": []
         },
         {
           "name": "Skuteviken",
-          "description": "Historic port area with traditional sailing ships and seafood restaurants"
+          "description": "Historic port area with traditional sailing ships and seafood restaurants",
+          "plans": []
         },
         {
           "name": "Mariakirken",
-          "description": "Oldest of the remaining churches in Bergen, built in the 12th century with unique architecture"
+          "description": "Oldest of the remaining churches in Bergen, built in the 12th century with unique architecture",
+          "plans": []
         }
       ]
     },
@@ -1100,55 +1727,68 @@
       "areas": [
         {
           "name": "San Blas",
-          "description": "Known for its bohemian atmosphere, colonial architecture, and artistic community"
+          "description": "Known for its bohemian atmosphere, colonial architecture, and artistic community",
+          "plans": []
         },
         {
           "name": "Sacsayhuaman",
-          "description": "Known for its impressive Incan ruins, spectacular views of the city, and historical significance"
+          "description": "Known for its impressive Incan ruins, spectacular views of the city, and historical significance",
+          "plans": []
         },
         {
           "name": "San Pedro Market",
-          "description": "Known for its vibrant colors, delicious food, and lively atmosphere, and traditional Peruvian crafts"
+          "description": "Known for its vibrant colors, delicious food, and lively atmosphere, and traditional Peruvian crafts",
+          "plans": []
         },
         {
           "name": "Plaza de Armas",
-          "description": "Known for being the main square in Cusco, beautiful colonial architecture, and its historical significance"
+          "description": "Known for being the main square in Cusco, beautiful colonial architecture, and its historical significance",
+          "plans": []
         },
         {
           "name": "Qorikancha",
-          "description": "Known for being the richest temple in the Incan empire, its impressive architecture, and murals"
+          "description": "Known for being the richest temple in the Incan empire, its impressive architecture, and murals",
+          "plans": []
         },
         {
           "name": "Tambomachay",
-          "description": "Known for its beautiful water fountains and aqueducts, historical importance, and natural surroundings"
+          "description": "Known for its beautiful water fountains and aqueducts, historical importance, and natural surroundings",
+          "plans": []
         },
         {
           "name": "Chinchero",
-          "description": "Known for its traditional textiles, Incan ruins, and stunning views of the surrounding valleys"
+          "description": "Known for its traditional textiles, Incan ruins, and stunning views of the surrounding valleys",
+          "plans": []
         },
         {
           "name": "Moray",
-          "description": "Known for its unusual circular Incan ruins, agricultural importance, and stunning views"
+          "description": "Known for its unusual circular Incan ruins, agricultural importance, and stunning views",
+          "plans": []
         },
         {
           "name": "Pisac",
-          "description": "Known for its famous market, Incan ruins, and stunning views of the Sacred Valley"
+          "description": "Known for its famous market, Incan ruins, and stunning views of the Sacred Valley",
+          "plans": []
         },
         {
           "name": "Inca Trail",
-          "description": "Known for its challenging trek, stunning views of the Andes, and historical significance"
+          "description": "Known for its challenging trek, stunning views of the Andes, and historical significance",
+          "plans": []
         },
         {
           "name": "Ollantaytambo",
-          "description": "Known for its impressive Incan fortress and ruins, stunning views of the surrounding mountains, and beautiful architecture"
+          "description": "Known for its impressive Incan fortress and ruins, stunning views of the surrounding mountains, and beautiful architecture",
+          "plans": []
         },
         {
           "name": "Maras",
-          "description": "Known for its unique salt flats, Incan ruins, and traditional buildings"
+          "description": "Known for its unique salt flats, Incan ruins, and traditional buildings",
+          "plans": []
         },
         {
           "name": "Rainbow Mountain",
-          "description": "Known for its colorful and unique mountain range, stunning natural beauty, and challenging trek"
+          "description": "Known for its colorful and unique mountain range, stunning natural beauty, and challenging trek",
+          "plans": []
         }
       ]
     },
@@ -1159,55 +1799,68 @@
       "areas": [
         {
           "name": "South Yarra",
-          "description": "Known for its high-end fashion boutiques, trendy cafes and restaurants, and proximity to the Royal Botanic Gardens."
+          "description": "Known for its high-end fashion boutiques, trendy cafes and restaurants, and proximity to the Royal Botanic Gardens.",
+          "plans": []
         },
         {
           "name": "Brunswick",
-          "description": "A lively area with a diverse range of cafes, restaurants and bars, street art, live music venues, and cultural events."
+          "description": "A lively area with a diverse range of cafes, restaurants and bars, street art, live music venues, and cultural events.",
+          "plans": []
         },
         {
           "name": "St Kilda",
-          "description": "A beachside suburb known for its iconic Luna Park amusement park, trendy bars and restaurants, and vibrant nightlife."
+          "description": "A beachside suburb known for its iconic Luna Park amusement park, trendy bars and restaurants, and vibrant nightlife.",
+          "plans": []
         },
         {
           "name": "Fitzroy",
-          "description": "A bohemian area with a thriving arts and music scene, vintage clothing stores, street art, and diverse range of cafes and restaurants."
+          "description": "A bohemian area with a thriving arts and music scene, vintage clothing stores, street art, and diverse range of cafes and restaurants.",
+          "plans": []
         },
         {
           "name": "Richmond",
-          "description": "A bustling area with a strong sporting culture, home to the Melbourne Cricket Ground and many popular pubs and restaurants."
+          "description": "A bustling area with a strong sporting culture, home to the Melbourne Cricket Ground and many popular pubs and restaurants.",
+          "plans": []
         },
         {
           "name": "Docklands",
-          "description": "A modern waterfront precinct with a range of attractions, including the Melbourne Star Observation Wheel, shopping, and restaurants."
+          "description": "A modern waterfront precinct with a range of attractions, including the Melbourne Star Observation Wheel, shopping, and restaurants.",
+          "plans": []
         },
         {
           "name": "Chapel Street",
-          "description": "A shopping and lifestyle district known for its trendy fashion boutiques, cafes and restaurants, and vibrant nightlife."
+          "description": "A shopping and lifestyle district known for its trendy fashion boutiques, cafes and restaurants, and vibrant nightlife.",
+          "plans": []
         },
         {
           "name": "Carlton",
-          "description": "A vibrant area known for its Italian roots, authentic Italian cuisine, and cultural institutions such as the Melbourne Museum and Royal Exhibition Building."
+          "description": "A vibrant area known for its Italian roots, authentic Italian cuisine, and cultural institutions such as the Melbourne Museum and Royal Exhibition Building.",
+          "plans": []
         },
         {
           "name": "Southbank",
-          "description": "A riverside area with an abundance of restaurants, bars, and entertainment venues such as the Crown Casino and Melbourne Convention and Exhibition Centre."
+          "description": "A riverside area with an abundance of restaurants, bars, and entertainment venues such as the Crown Casino and Melbourne Convention and Exhibition Centre.",
+          "plans": []
         },
         {
           "name": "Williamstown",
-          "description": "A charming coastal suburb with a rich maritime history, beautiful beaches, and a range of cafes, restaurants, and bars."
+          "description": "A charming coastal suburb with a rich maritime history, beautiful beaches, and a range of cafes, restaurants, and bars.",
+          "plans": []
         },
         {
           "name": "Prahran",
-          "description": "A stylish area with a range of chic cafes, bars, and restaurants, and a vibrant nightlife."
+          "description": "A stylish area with a range of chic cafes, bars, and restaurants, and a vibrant nightlife.",
+          "plans": []
         },
         {
           "name": "Footscray",
-          "description": "A multicultural area with a diverse range of authentic international cuisine, street markets, and cultural events."
+          "description": "A multicultural area with a diverse range of authentic international cuisine, street markets, and cultural events.",
+          "plans": []
         },
         {
           "name": "Yarraville",
-          "description": "A charming village-like suburb known for its art deco architecture, independent cinema, and boutique shops and cafes."
+          "description": "A charming village-like suburb known for its art deco architecture, independent cinema, and boutique shops and cafes.",
+          "plans": []
         }
       ]
     },
@@ -1218,55 +1871,68 @@
       "areas": [
         {
           "name": "Östermalm",
-          "description": "Known for its high-end shopping, restaurants and cafes."
+          "description": "Known for its high-end shopping, restaurants and cafes.",
+          "plans": []
         },
         {
           "name": "Gamla stan",
-          "description": "Known for its historic buildings and cobblestone streets with many tourist attractions."
+          "description": "Known for its historic buildings and cobblestone streets with many tourist attractions.",
+          "plans": []
         },
         {
           "name": "Södermalm",
-          "description": "Known for its trendy bars, restaurants, and vintage shops."
+          "description": "Known for its trendy bars, restaurants, and vintage shops.",
+          "plans": []
         },
         {
           "name": "Vasastan",
-          "description": "Known for its beautiful parks, tree-lined streets, and cosy cafes."
+          "description": "Known for its beautiful parks, tree-lined streets, and cosy cafes.",
+          "plans": []
         },
         {
           "name": "Kungsholmen",
-          "description": "Known for its waterfront views and abundance of new restaurants and bars."
+          "description": "Known for its waterfront views and abundance of new restaurants and bars.",
+          "plans": []
         },
         {
           "name": "Djurgården",
-          "description": "Known for its beautiful green spaces and outdoor attractions, including the famous Skansen museum."
+          "description": "Known for its beautiful green spaces and outdoor attractions, including the famous Skansen museum.",
+          "plans": []
         },
         {
           "name": "Långholmen",
-          "description": "Known for its idyllic marina, beach, and relaxed atmosphere."
+          "description": "Known for its idyllic marina, beach, and relaxed atmosphere.",
+          "plans": []
         },
         {
           "name": "Norrmalm",
-          "description": "Known for its central location, shopping, and nightlife."
+          "description": "Known for its central location, shopping, and nightlife.",
+          "plans": []
         },
         {
           "name": "Gärdet",
-          "description": "Known for its parks, scenic views of Stockholm, and the Stockholm Exhibition Hall."
+          "description": "Known for its parks, scenic views of Stockholm, and the Stockholm Exhibition Hall.",
+          "plans": []
         },
         {
           "name": "Rörstrandsgatan",
-          "description": "Known for its unique boutiques, coffee shops, and small restaurants."
+          "description": "Known for its unique boutiques, coffee shops, and small restaurants.",
+          "plans": []
         },
         {
           "name": "Hornstull",
-          "description": "Known for its hip cafes, bars, and small shops."
+          "description": "Known for its hip cafes, bars, and small shops.",
+          "plans": []
         },
         {
           "name": "Hammarby Sjöstad",
-          "description": "Known for its modern architecture, waterfront views, and eco-friendly lifestyle."
+          "description": "Known for its modern architecture, waterfront views, and eco-friendly lifestyle.",
+          "plans": []
         },
         {
           "name": "Södermalmstorg",
-          "description": "Known for its historical significance as the site of the first ever Swedish trade fair, and its many trendy cafes and restaurants."
+          "description": "Known for its historical significance as the site of the first ever Swedish trade fair, and its many trendy cafes and restaurants.",
+          "plans": []
         }
       ]
     },
@@ -1277,55 +1943,68 @@
       "areas": [
         {
           "name": "Kallio",
-          "description": "A hip and lively neighborhood filled with bars, restaurants, and vintage shops."
+          "description": "A hip and lively neighborhood filled with bars, restaurants, and vintage shops.",
+          "plans": []
         },
         {
           "name": "Katajanokka",
-          "description": "A picturesque area filled with stunning 19th-century architecture, beautiful parks, and scenic waterfront views."
+          "description": "A picturesque area filled with stunning 19th-century architecture, beautiful parks, and scenic waterfront views.",
+          "plans": []
         },
         {
           "name": "Kruununhaka",
-          "description": "A historic and charming neighborhood with well-preserved old buildings, trendy cafes, and interesting museums."
+          "description": "A historic and charming neighborhood with well-preserved old buildings, trendy cafes, and interesting museums.",
+          "plans": []
         },
         {
           "name": "Ullanlinna",
-          "description": "A high-end residential area with beautiful Art Nouveau architecture, boutique shops, and fine dining restaurants."
+          "description": "A high-end residential area with beautiful Art Nouveau architecture, boutique shops, and fine dining restaurants.",
+          "plans": []
         },
         {
           "name": "Punavuori",
-          "description": "A trendy and vibrant area with trendy cafes, designer boutiques, and a bustling nightlife."
+          "description": "A trendy and vibrant area with trendy cafes, designer boutiques, and a bustling nightlife.",
+          "plans": []
         },
         {
           "name": "Eira",
-          "description": "A chic and luxurious area known for its upscale apartments, beautiful parks, and sophisticated restaurants."
+          "description": "A chic and luxurious area known for its upscale apartments, beautiful parks, and sophisticated restaurants.",
+          "plans": []
         },
         {
           "name": "Töölö",
-          "description": "A peaceful and green neighborhood with numerous parks, museums, and cultural institutions."
+          "description": "A peaceful and green neighborhood with numerous parks, museums, and cultural institutions.",
+          "plans": []
         },
         {
           "name": "Hakaniemi",
-          "description": "A lively area with a local food market, a variety of restaurants, and a large shopping center."
+          "description": "A lively area with a local food market, a variety of restaurants, and a large shopping center.",
+          "plans": []
         },
         {
           "name": "Espoo",
-          "description": "A suburban area just outside of Helsinki with beautiful forests, lakes, and hiking trails."
+          "description": "A suburban area just outside of Helsinki with beautiful forests, lakes, and hiking trails.",
+          "plans": []
         },
         {
           "name": "Suomenlinna",
-          "description": "An old sea fortress located on an island just off the coast of Helsinki that now serves as a popular tourist attraction."
+          "description": "An old sea fortress located on an island just off the coast of Helsinki that now serves as a popular tourist attraction.",
+          "plans": []
         },
         {
           "name": "Kalliokivi",
-          "description": "A scenic natural park where visitors can go hiking, rock-climbing, and enjoy beautiful views of the city."
+          "description": "A scenic natural park where visitors can go hiking, rock-climbing, and enjoy beautiful views of the city.",
+          "plans": []
         },
         {
           "name": "Hietalahti",
-          "description": "A lively market square known for its food and drink stalls, street performers, and live music."
+          "description": "A lively market square known for its food and drink stalls, street performers, and live music.",
+          "plans": []
         },
         {
           "name": "Korkeasaari",
-          "description": "A popular zoo located on an island just off the coast of Helsinki with over 150 species of animals."
+          "description": "A popular zoo located on an island just off the coast of Helsinki with over 150 species of animals.",
+          "plans": []
         }
       ]
     },
@@ -1336,55 +2015,68 @@
       "areas": [
         {
           "name": "Baixa",
-          "description": "Known for being the heart of the city with lots of shops, cafes and restaurants"
+          "description": "Known for being the heart of the city with lots of shops, cafes and restaurants",
+          "plans": []
         },
         {
           "name": "Chiado",
-          "description": "Known for its historic buildings, museums, theaters, and upscale shopping"
+          "description": "Known for its historic buildings, museums, theaters, and upscale shopping",
+          "plans": []
         },
         {
           "name": "Bairro Alto",
-          "description": "Known for its vibrant nightlife, with many bars and restaurants to choose from"
+          "description": "Known for its vibrant nightlife, with many bars and restaurants to choose from",
+          "plans": []
         },
         {
           "name": "Alfama",
-          "description": "Known for its Moorish architecture and winding streets, one of the oldest areas in Lisbon"
+          "description": "Known for its Moorish architecture and winding streets, one of the oldest areas in Lisbon",
+          "plans": []
         },
         {
           "name": "Belém",
-          "description": "Known for its historic monuments like the Belém Tower and Jerónimos Monastery"
+          "description": "Known for its historic monuments like the Belém Tower and Jerónimos Monastery",
+          "plans": []
         },
         {
           "name": "Parque das Nações",
-          "description": "Known for its modern architecture, shopping center and the Oceanário de Lisboa"
+          "description": "Known for its modern architecture, shopping center and the Oceanário de Lisboa",
+          "plans": []
         },
         {
           "name": "Saldanha",
-          "description": "Known for its great shopping and multicultural cuisine, attracts many tourists"
+          "description": "Known for its great shopping and multicultural cuisine, attracts many tourists",
+          "plans": []
         },
         {
           "name": "Cais do Sodré",
-          "description": "Known for its lively neighborhood with many cool bars and the famous Timeout Market"
+          "description": "Known for its lively neighborhood with many cool bars and the famous Timeout Market",
+          "plans": []
         },
         {
           "name": "Estrela",
-          "description": "Known for its large green park, beautiful Basilica and palaces"
+          "description": "Known for its large green park, beautiful Basilica and palaces",
+          "plans": []
         },
         {
           "name": "Príncipe Real",
-          "description": "Known for its trendy and vibrant atmosphere, with local designer shops and gay nightlife"
+          "description": "Known for its trendy and vibrant atmosphere, with local designer shops and gay nightlife",
+          "plans": []
         },
         {
           "name": "Graça",
-          "description": "Known for its stunning viewpoints, traditional old neighborhoods and street art"
+          "description": "Known for its stunning viewpoints, traditional old neighborhoods and street art",
+          "plans": []
         },
         {
           "name": "Lapa",
-          "description": "Known for its elegant mansions, embassies and bars, great for a night out"
+          "description": "Known for its elegant mansions, embassies and bars, great for a night out",
+          "plans": []
         },
         {
           "name": "Mouraria",
-          "description": "Known for its multicultural vibe, where you can taste a variety of international cuisines"
+          "description": "Known for its multicultural vibe, where you can taste a variety of international cuisines",
+          "plans": []
         }
       ]
     },
@@ -1395,43 +2087,53 @@
       "areas": [
         {
           "name": "Old Town",
-          "description": "Known for its stunning architecture, historic buildings, and charming, narrow streets that lead to some of the city's most famous attractions such as the Old Town Square, the Astronomical Clock, and the Charles Bridge."
+          "description": "Known for its stunning architecture, historic buildings, and charming, narrow streets that lead to some of the city's most famous attractions such as the Old Town Square, the Astronomical Clock, and the Charles Bridge.",
+          "plans": []
         },
         {
           "name": "Mala Strana",
-          "description": "Famous for its cobbled streets, beautiful gardens and parks, and stunning Baroque architecture, including St. Nicholas Church, Wallenstein Palace, and the famous Dancing House, designed by the famous architect Frank Gehry."
+          "description": "Famous for its cobbled streets, beautiful gardens and parks, and stunning Baroque architecture, including St. Nicholas Church, Wallenstein Palace, and the famous Dancing House, designed by the famous architect Frank Gehry.",
+          "plans": []
         },
         {
           "name": "Vinohrady",
-          "description": "One of Prague's most exclusive residential areas, Vinohrady is known for its leafy streets, stunning Art Nouveau buildings, and thriving cafe and restaurant scene. It's also home to Riegrovy Sady, one of Prague's largest and most beautiful parks."
+          "description": "One of Prague's most exclusive residential areas, Vinohrady is known for its leafy streets, stunning Art Nouveau buildings, and thriving cafe and restaurant scene. It's also home to Riegrovy Sady, one of Prague's largest and most beautiful parks.",
+          "plans": []
         },
         {
           "name": "Karlin",
-          "description": "A trendy suburb, Karlin is one of Prague's most up-and-coming areas known for its vibrant street art, trendy cafes, and thriving food and drink scene. It's also home to some of Prague's best live music venues."
+          "description": "A trendy suburb, Karlin is one of Prague's most up-and-coming areas known for its vibrant street art, trendy cafes, and thriving food and drink scene. It's also home to some of Prague's best live music venues.",
+          "plans": []
         },
         {
           "name": "Holesovice",
-          "description": "Located on the banks of the Vltava River, Holesovice is a rapidly gentrifying area known for its industrial, creative vibe, and hipster scene. It's home to some of Prague's best art galleries, vintage shops, and alternative bars and clubs."
+          "description": "Located on the banks of the Vltava River, Holesovice is a rapidly gentrifying area known for its industrial, creative vibe, and hipster scene. It's home to some of Prague's best art galleries, vintage shops, and alternative bars and clubs.",
+          "plans": []
         },
         {
           "name": "Smichov",
-          "description": "Located on the west bank of Vltava River, Smichov is known for its modern commercial centers, parks, bars, restaurants and great views of the city. The famous Baroque palace, Bertramka, where Mozart used to stay and compose music is also located here."
+          "description": "Located on the west bank of Vltava River, Smichov is known for its modern commercial centers, parks, bars, restaurants and great views of the city. The famous Baroque palace, Bertramka, where Mozart used to stay and compose music is also located here.",
+          "plans": []
         },
         {
           "name": "Zizkov",
-          "description": "Known as Prague's 'hipster' neighbourhood, Zizkov is famous for its alternative bars, bohemian vibe, and lively nightlife scene. It's also home to the TV Tower, which offers panoramic views of the cityscape from its observation deck."
+          "description": "Known as Prague's 'hipster' neighbourhood, Zizkov is famous for its alternative bars, bohemian vibe, and lively nightlife scene. It's also home to the TV Tower, which offers panoramic views of the cityscape from its observation deck.",
+          "plans": []
         },
         {
           "name": "Dejvice",
-          "description": "Located in Prague 6 district, Dejvice is a beautiful area with a mix of old and new architecture. It's home to the Prague Castle Complex, which includes the famous St. Vitus Cathedral, the Royal Palace, and the Golden Lane."
+          "description": "Located in Prague 6 district, Dejvice is a beautiful area with a mix of old and new architecture. It's home to the Prague Castle Complex, which includes the famous St. Vitus Cathedral, the Royal Palace, and the Golden Lane.",
+          "plans": []
         },
         {
           "name": "Nusle",
-          "description": "Located on the south of Prague, Nusle is a residential area known for its beautiful parks, hilly terrain, and stunning views of the city from Vysehrad Castle. The area also has many sports facilities, including a popular ice hockey stadium."
+          "description": "Located on the south of Prague, Nusle is a residential area known for its beautiful parks, hilly terrain, and stunning views of the city from Vysehrad Castle. The area also has many sports facilities, including a popular ice hockey stadium.",
+          "plans": []
         },
         {
           "name": "Kobylisy",
-          "description": "A quiet residential and industrial district of Prague, Kobylisy is famous for its beautiful parks such as the Lancelotka Park, which offers a stunning view of the city's skyline. It's also known for its popular open-air markets and antique shops."
+          "description": "A quiet residential and industrial district of Prague, Kobylisy is famous for its beautiful parks such as the Lancelotka Park, which offers a stunning view of the city's skyline. It's also known for its popular open-air markets and antique shops.",
+          "plans": []
         }
       ]
     },

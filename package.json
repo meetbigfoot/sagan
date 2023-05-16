@@ -11,5 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/meetbigfoot/sagan.git"
   },
-  "scripts": {}
+  "scripts": {},
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
 }

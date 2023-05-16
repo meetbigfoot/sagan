@@ -1,4 +1,5 @@
 import fs from 'fs'
+import fetch from 'node-fetch'
 
 import data from './data.json' assert { type: 'json' }
 import logs from './logs.json' assert { type: 'json' }
@@ -7,6 +8,7 @@ const targets = {
   areas: 12,
   cities: 60,
   per_request: 6,
+  plans: 12,
 }
 
 const histories = {
@@ -17,6 +19,12 @@ const histories = {
     },
   ],
   cities: [
+    {
+      role: 'system',
+      content: `You are helping me generate a large JSON file.`,
+    },
+  ],
+  plans: [
     {
       role: 'system',
       content: `You are helping me generate a large JSON file.`,
@@ -39,6 +47,27 @@ const schemas = {
       {
         name: 'local area name',
         description: 'what this area is known for',
+      },
+    ],
+  },
+  plans: {
+    plans: [
+      {
+        title: 'a fun title using emojis',
+        parts: [
+          {
+            time_of_day: 'morning',
+            places: [
+              {
+                name: 'Example',
+                address: 'Example',
+                latitude: 12.34,
+                longitude: -56.78,
+                tags: 'comma-separated list of three descriptors',
+              },
+            ],
+          },
+        ],
       },
     ],
   },
@@ -119,6 +148,8 @@ const log = (duration, event) => {
 }
 log(0, 'Init AutoGPT')
 
+const saveData = () => fs.writeFileSync('data.json', JSON.stringify(data, null, 2))
+
 const addAreas = () => {
   const schema = JSON.stringify(schemas.areas, null, 0)
   let started_at = Date.now()
@@ -155,6 +186,45 @@ const addAreas = () => {
     }
   })
 }
-addAreas()
+// addAreas()
 
-const saveData = () => fs.writeFileSync('data.json', JSON.stringify(data, null, 2))
+const addPlans = () => {
+  const schema = JSON.stringify(schemas.areas, null, 0)
+  let started_at = Date.now()
+
+  // continue where we left off
+  const nextCity = data.cities.findIndex(city => city.areas.find(area => area.plans.length < targets.plans))
+  const city = data.cities[nextCity]
+  const nextArea = city.areas.findIndex(area => area.plans.length < targets.plans)
+  const area = city.areas[nextArea]
+  // reset history when area changes
+  if (!area.plans.length) histories.plans.length = 1
+
+  histories.plans.push({
+    role: 'user',
+    content: `Plan another full day of experiences in ${area.name} in ${
+      city.name
+    }. Return a single JSON object copying this schema: ${JSON.stringify(
+      schemas.plans,
+    )}, use the values as hints, and only one or two recommendations per time of day.`,
+  })
+  console.log(histories.plans)
+  turbo(histories.plans).then(text => {
+    try {
+      histories.plans.push({
+        role: 'assistant',
+        content: text,
+      })
+      const newPlans = toJSON(text).plans
+      newPlans.forEach(plan => area.plans.push(plan))
+      saveData()
+      log(Date.now() - started_at, `Added ${newPlans.map(p => p.title).join(', ')}`)
+      // keep going! TODO: detect all area targets met
+      addPlans()
+    } catch (error) {
+      console.log(text)
+      log(Date.now() - started_at, `Error adding areas: ${error}`)
+    }
+  })
+}
+addPlans()
