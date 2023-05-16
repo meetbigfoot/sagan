@@ -868,5 +868,437 @@
       "total_cities": 62
     },
     "time": 1684196333968
+  },
+  {
+    "duration": 0,
+    "event": "Init AutoGPT",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196723269
+  },
+  {
+    "duration": 17317,
+    "event": "Added Camp's Bay, Woodstock, Constantia, Sea Point, Hout Bay, Bo-Kaap",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196740587
+  },
+  {
+    "duration": 15951,
+    "event": "Added Thonglor, Khaosan Road, Chinatown, Sathorn, Ari, Ekkamai",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196756538
+  },
+  {
+    "duration": 22757,
+    "event": "Added Thonglor, Khaosan Road, Chinatown, Sathorn, Ari, Ekkamai, Ratchadapisek, Phra Khanong, Silom",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196779296
+  },
+  {
+    "duration": 29624,
+    "event": "Added Thonglor, Khaosan Road, Chinatown, Sathorn, Ari, Ekkamai, Ratchadapisek, Phra Khanong, Silom, Thonburi, Ramkhamhaeng, Sukhumvit",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196808921
+  },
+  {
+    "duration": 26460,
+    "event": "Added Kreuzberg, Neukölln, Prenzlauer Berg, Friedrichshain, Charlottenburg, Mitte, Schöneberg, Wedding, Moabit",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196835382
+  },
+  {
+    "duration": 27339,
+    "event": "Added Kreuzberg, Neukölln, Prenzlauer Berg, Friedrichshain, Charlottenburg, Mitte, Schöneberg, Wedding, Moabit, Tempelhof, Köpenick, Treptow",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196862722
+  },
+  {
+    "duration": 16812,
+    "event": "Added Gastown, Coal Harbour, Mount Pleasant, Yaletown, Kitsilano, Commercial Drive, Chinatown",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196879535
+  },
+  {
+    "duration": 22451,
+    "event": "Added Gastown, Coal Harbour, Mount Pleasant, Yaletown, Kitsilano, Commercial Drive, West End, Granville Island, Cambie Village",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196901987
+  },
+  {
+    "duration": 28207,
+    "event": "Added Gastown, Coal Harbour, Mount Pleasant, Yaletown, Kitsilano, Commercial Drive, West End, Granville Island, Cambie Village, Main Street, Downtown, North Shore",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196930194
+  },
+  {
+    "duration": 15715,
+    "event": "Added Myeong-dong, Hongdae, Insadong, Gangnam, Itaewon, Sinchon, Yeouido",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196945910
+  },
+  {
+    "duration": 22363,
+    "event": "Added Myeong-dong, Hongdae, Insadong, Gangnam, Itaewon, Sinchon, Yeouido, Gwanghwamun, Jamsil, Cheongdam-dong",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196968274
+  },
+  {
+    "duration": 27191,
+    "event": "Added Myeong-dong, Hongdae, Insadong, Gangnam, Itaewon, Sinchon, Yeouido, Gwanghwamun, Jamsil, Cheongdam-dong, Seorae Village, Apgujeong, Daehangno",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196995465
+  },
+  {
+    "duration": 23430,
+    "event": "Added Recoleta, Puerto Madero, San Telmo, Palermo, La Boca, Belgrano, Villa Crespo, Colegiales, Caballito",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197018895
+  },
+  {
+    "duration": 29417,
+    "event": "Added Recoleta, Puerto Madero, San Telmo, Palermo, La Boca, Belgrano, Villa Crespo, Colegiales, Caballito, Retiro, Almagro, Saavedra",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197048314
+  },
+  {
+    "duration": 19353,
+    "event": "Added Medina, Gueliz, Hivernage, Agdal, Palmeraie, Marrakech Hinterland",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197067668
+  },
+  {
+    "duration": 29137,
+    "event": "Added Medina, Gueliz, Hivernage, Agdal, Palmeraie, Marrakech Hinterland, Kasbah, Mellah, Guemassa",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197096807
+  },
+  {
+    "duration": 36278,
+    "event": "Added Medina, Gueliz, Hivernage, Agdal, Palmeraie, Marrakech Hinterland, Kasbah, Mellah, Guemassa, Sidi Ghanem, Bab Doukkala, Azrou",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197133086
+  },
+  {
+    "duration": 17234,
+    "event": "Added Ponsonby, Devonport, Matakana, Titirangi, Mission Bay, Waiheke Island",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197150320
+  },
+  {
+    "duration": 25238,
+    "event": "Added Ponsonby, Devonport, Matakana, Titirangi, Mission Bay, Waiheke Island, Mount Eden, Parnell, Takapuna",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197175558
+  },
+  {
+    "duration": 31389,
+    "event": "Added Ponsonby, Devonport, Matakana, Titirangi, Mission Bay, Waiheke Island, Mount Eden, Parnell, Takapuna, Newmarket, K Road, Orakei",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197206947
+  },
+  {
+    "duration": 17850,
+    "event": "Added Old Town, New Town, Stockbridge, Leith, Haymarket, Morningside, Broughton",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197224799
+  },
+  {
+    "duration": 24399,
+    "event": "Added Old Town, New Town, Stockbridge, Leith, Haymarket, Morningside, Broughton, Grassmarket, Marchmont, Bruntsfield",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197249199
+  },
+  {
+    "duration": 32277,
+    "event": "Added Old Town, New Town, Stockbridge, Leith, Haymarket, Morningside, Broughton, Grassmarket, Marchmont, Bruntsfield, Newington, Corstorphine, Portobello",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197281477
+  },
+  {
+    "duration": 13439,
+    "event": "Added Mile End, Le Plateau-Mont-Royal, Vieux-Montreal, Griffintown, Rosemont-La Petite-Patrie",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197294917
+  },
+  {
+    "duration": 15411,
+    "event": "Added The Village, Outremont, Little Italy, Saint-Henri, Cote-des-Neiges, Saint Laurent Boulevard",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197310329
+  },
+  {
+    "duration": 25030,
+    "event": "Added Verdun, Chinatown, Pointe-Saint-Charles, La Petite-Bourgogne, Grévin Montréal, The Montreal Museum of Fine Arts",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197335361
+  },
+  {
+    "duration": 17762,
+    "event": "Added Bryggen, Fløyen, Nordnes, Nygårdshøyden, Sandviken, Solheimsviken, Verftet",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197353123
+  },
+  {
+    "duration": 24920,
+    "event": "Added Bryggen, Fløyen, Nordnes, Nygårdshøyden, Sandviken, Solheimsviken, Verftet, Ulriken, Helleneset, Starefossen",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197378043
+  },
+  {
+    "duration": 33021,
+    "event": "Added Bryggen, Fløyen, Nordnes, Nygårdshøyden, Sandviken, Solheimsviken, Verftet, Ulriken, Helleneset, Starefossen, Fisketorget, Skuteviken, Mariakirken",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197411065
+  },
+  {
+    "duration": 19144,
+    "event": "Added San Blas, Sacsayhuaman, San Pedro Market, Plaza de Armas, Qorikancha, Tambomachay, Chinchero",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197430210
+  },
+  {
+    "duration": 26003,
+    "event": "Added San Blas, Sacsayhuaman, San Pedro Market, Plaza de Armas, Qorikancha, Tambomachay, Chinchero, Moray, Pisac, Inca Trail",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197456215
+  },
+  {
+    "duration": 32846,
+    "event": "Added San Blas, Sacsayhuaman, San Pedro Market, Plaza de Armas, Qorikancha, Tambomachay, Chinchero, Moray, Pisac, Inca Trail, Ollantaytambo, Maras, Rainbow Mountain",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197489061
+  },
+  {
+    "duration": 22484,
+    "event": "Added South Yarra, Brunswick, St Kilda, Fitzroy, Richmond, Docklands, Chapel Street",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197511545
+  },
+  {
+    "duration": 30705,
+    "event": "Added South Yarra, Brunswick, St Kilda, Fitzroy, Richmond, Docklands, Chapel Street, Carlton, Southbank, Williamstown",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197542252
+  },
+  {
+    "duration": 38732,
+    "event": "Added South Yarra, Brunswick, St Kilda, Fitzroy, Richmond, Docklands, Chapel Street, Carlton, Southbank, Williamstown, Prahran, Footscray, Yarraville",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197580985
+  },
+  {
+    "duration": 17796,
+    "event": "Added Östermalm, Gamla stan, Södermalm, Vasastan, Kungsholmen, Djurgården, Långholmen",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197598782
+  },
+  {
+    "duration": 24237,
+    "event": "Added Östermalm, Gamla stan, Södermalm, Vasastan, Kungsholmen, Djurgården, Långholmen, Norrmalm, Gärdet, Rörstrandsgatan",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197623020
+  },
+  {
+    "duration": 31480,
+    "event": "Added Östermalm, Gamla stan, Södermalm, Vasastan, Kungsholmen, Djurgården, Långholmen, Norrmalm, Gärdet, Rörstrandsgatan, Hornstull, Hammarby Sjöstad, Södermalmstorg",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197654500
+  },
+  {
+    "duration": 19654,
+    "event": "Added Kallio, Katajanokka, Kruununhaka, Ullanlinna, Punavuori, Eira, Töölö",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197674155
+  },
+  {
+    "duration": 27031,
+    "event": "Added Kallio, Katajanokka, Kruununhaka, Ullanlinna, Punavuori, Eira, Töölö, Hakaniemi, Espoo, Suomenlinna",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197701188
+  },
+  {
+    "duration": 35491,
+    "event": "Added Kallio, Katajanokka, Kruununhaka, Ullanlinna, Punavuori, Eira, Töölö, Hakaniemi, Espoo, Suomenlinna, Kalliokivi, Hietalahti, Korkeasaari",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197736680
+  },
+  {
+    "duration": 16451,
+    "event": "Added Baixa, Chiado, Bairro Alto, Alfama, Belém, Parque das Nações, Saldanha",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197753132
+  },
+  {
+    "duration": 21497,
+    "event": "Added Baixa, Chiado, Bairro Alto, Alfama, Belém, Parque das Nações, Cais do Sodré, Estrela, Príncipe Real",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197774630
+  },
+  {
+    "duration": 28134,
+    "event": "Added Baixa, Chiado, Bairro Alto, Alfama, Belém, Parque das Nações, Cais do Sodré, Estrela, Príncipe Real, Graça, Lapa, Mouraria",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197802765
+  },
+  {
+    "duration": 35440,
+    "event": "Added Old Town, Mala Strana, Vinohrady, Karlin, Holesovice, Smichov, Zizkov",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197838206
+  },
+  {
+    "duration": 47536,
+    "event": "Added Old Town, Mala Strana, Vinohrady, Karlin, Holesovice, Smichov, Zizkov, Dejvice, Nusle, Kobylisy",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197885743
+  },
+  {
+    "duration": 60073,
+    "event": "Error adding areas: SyntaxError: Unexpected end of JSON input",
+    "model": "turbo",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684197945817
   }
 ]

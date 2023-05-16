@@ -6,7 +6,7 @@ import logs from './logs.json' assert { type: 'json' }
 const targets = {
   areas: 12,
   cities: 60,
-  per_request: 3,
+  per_request: 6,
 }
 
 const histories = {
@@ -45,7 +45,7 @@ const schemas = {
 }
 
 const turbo = async messages => {
-  const response = await fetch(`https://us-central1-samantha-374622.cloudfunctions.net/gpt4`, {
+  const response = await fetch(`https://us-central1-samantha-374622.cloudfunctions.net/turbo`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -109,7 +109,7 @@ const log = (duration, event) => {
   logs.push({
     duration,
     event,
-    model: 'gpt4',
+    model: 'turbo',
     stats: {
       total_cities: data.cities.length,
     },
@@ -156,7 +156,5 @@ const addAreas = () => {
   })
 }
 addAreas()
-
-const nextCity = () => {}
 
 const saveData = () => fs.writeFileSync('data.json', JSON.stringify(data, null, 2))
