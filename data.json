@@ -3,312 +3,819 @@
     {
       "name": "New York City",
       "description": "the city that never sleeps",
-      "language": "English"
+      "language": "English",
+      "areas": [
+        {
+          "name": "Times Square",
+          "description": "Known for its iconic billboards, theaters and tourist attractions, Times Square is a bustling area in the heart of New York City."
+        },
+        {
+          "name": "Central Park",
+          "description": "An expansive urban park with beautiful landscapes, Central Park offers numerous activities like boating, picnics, playgrounds and scenic walks."
+        },
+        {
+          "name": "SoHo",
+          "description": "SoHo is famous for its trendy shopping boutiques, art galleries, and vibrant dining scene, making it a popular destination for locals and tourists alike."
+        },
+        {
+          "name": "Brooklyn Bridge Park",
+          "description": "A waterfront park providing breathtaking views of the Manhattan skyline, green spaces, and recreational activities."
+        },
+        {
+          "name": "Greenwich Village",
+          "description": "Known for its bohemian vibe, historic Washington Square Park, and a vibrant dining and entertainment scene."
+        },
+        {
+          "name": "Coney Island",
+          "description": "A beachside amusement area featuring the iconic amusement park, boardwalk, and sandy beach."
+        },
+        {
+          "name": "Battery Park",
+          "description": "A public park along the Hudson River offering scenic views, green spaces, and access to ferries for the Statue of Liberty and Ellis Island."
+        },
+        {
+          "name": "DUMBO",
+          "description": "A trendy neighborhood with stunning views of Manhattan, iconic Brooklyn Bridge, and numerous art galleries and shops."
+        },
+        {
+          "name": "Chinatown",
+          "description": "A bustling neighborhood known for its authentic Chinese cuisine, colorful markets, and a vibrant shopping scene."
+        },
+        {
+          "name": "Williamsburg",
+          "description": "A trendy, creative neighborhood with music venues, local boutiques, and a vibrant art scene."
+        },
+        {
+          "name": "Chelsea",
+          "description": "Known for its art galleries, High Line Park, and the famous Chelsea Market offering an array of food and shopping options."
+        },
+        {
+          "name": "Harlem",
+          "description": "Home to historic institutions, such as the Apollo Theater, and a rich cultural scene with soul food restaurants and jazz clubs."
+        }
+      ]
     },
     {
       "name": "Tokyo",
       "description": "Known for its bustling street life, neon-lit skyscrapers, and thriving entertainment industry.",
-      "language": "Japanese"
+      "language": "Japanese",
+      "areas": [
+        {
+          "name": "Shibuya",
+          "description": "Famous for its bustling shopping scene, Shibuya Crossing, and vibrant nightlife."
+        },
+        {
+          "name": "Asakusa",
+          "description": "Known for its historic Senso-ji Temple, traditional shopping street, and vibrant festivals."
+        },
+        {
+          "name": "Akihabara",
+          "description": "A dreamland for manga, anime, and electronics enthusiasts with a plethora of shops and cafes."
+        },
+        {
+          "name": "Ginza",
+          "description": "A luxurious shopping district with high-end stores, famous department stores, and renowned art galleries."
+        },
+        {
+          "name": "Harajuku",
+          "description": "Known for its eclectic fashion scene, trendy shops, and colorful street art."
+        },
+        {
+          "name": "Shinjuku",
+          "description": "A bustling urban area with shopping malls, towering skyscrapers, lively entertainment districts, and the beautiful Shinjuku Gyoen National Garden."
+        },
+        {
+          "name": "Odaiba",
+          "description": "An entertainment hub with shopping centers, amusement parks, and scenic waterfront views of Tokyo Bay."
+        },
+        {
+          "name": "Roppongi",
+          "description": "A vibrant nightlife scene with numerous clubs, bars, and international restaurants, as well as the Roppongi Hills complex and Mori Art Museum."
+        },
+        {
+          "Nname": "Ueno",
+          "description": "Home to Ueno Park, which houses several museums, a zoo, and the famous cherry blossom-lined boulevard."
+        },
+        {
+          "name": "Ikebukuro",
+          "description": "A bustling commercial district with shopping centers, entertainment venues, and a popular aquarium."
+        },
+        {
+          "name": "Tsukiji",
+          "description": "Home to the former Tsukiji Fish Market, offering a variety of seafood and sushi restaurants, as well as the new Toyosu Fish Market."
+        },
+        {
+          "name": "Ebisu",
+          "description": "A popular district for dining and nightlife, featuring the Yebisu Garden Place complex and the Museum of Yebisu Beer."
+        }
+      ]
     },
     {
       "name": "Paris",
       "description": "The 'City of Light', known for its rich history, stunning architecture, and world-renowned cuisine.",
-      "language": "French"
+      "language": "French",
+      "areas": [
+        {
+          "name": "Le Marais",
+          "description": "A historic district known for its trendy boutiques, art galleries, and diverse dining options."
+        },
+        {
+          "name": "Montmartre",
+          "description": "A charming, bohemian neighborhood with the iconic Sacré-Cœur Basilica, numerous art studios, and a lively atmosphere."
+        },
+        {
+          "name": "Saint-Germain-des-Prés",
+          "description": "A chic and intellectual neighborhood, home to historic cafes, upscale boutiques, and the beautiful Luxembourg Gardens."
+        },
+        {
+          "name": "Quartier Latin",
+          "description": "Lively and intellectual region featuring bookshops, gardens, and the famous Sorbonne University, as well as charming restaurants and bars."
+        },
+        {
+          "name": "Canal Saint-Martin",
+          "description": "A trendy district with hip cafés and bars, charming streets along the canal, as well as home to the picturesque locks and iron footbridges."
+        },
+        {
+          "name": "La Villette",
+          "description": "A cultural hub featuring the Cité des Sciences et de l'Industrie, the Philharmonie de Paris concert hall, and the sprawling Parc de la Villette."
+        },
+        {
+          "name": "Bastille",
+          "description": "An energetic district known for its nightlife scene, vibrant bars, cutting-edge art galleries, and historic landmarks such as the Opéra Bastille."
+        },
+        {
+          "name": "Champs-Élysées",
+          "description": "An iconic boulevard famous for its luxury shopping, upscale dining, and historical monuments, including the Arc de Triomphe and the Grand Palais."
+        },
+        {
+          "name": "Jardin du Luxembourg",
+          "description": "A beautiful park with picturesque gardens, sculptures, fountains, and surrounding area filled with charming cafes, museums, and the Pantheon."
+        },
+        {
+          "name": "Ile de la Cité",
+          "description": "The birthplace of Paris and home to historical landmarks such as Notre-Dame Cathedral, Sainte-Chapelle, and the Conciergerie."
+        },
+        {
+          "name": "Belleville",
+          "description": "A vibrant, multicultural neighborhood known for its street art, trendy cafés, and panoramic views at Parc de Belleville."
+        },
+        {
+          "name": "Les Invalides",
+          "description": "A historic complex housing the iconic Army Museum, the tomb of Napoleon Bonaparte, and the stunning Église du Dôme."
+        }
+      ]
     },
     {
       "name": "Sydney",
       "description": "Famous for its sandy beaches, iconic Opera House, and stunning harbor views.",
-      "language": "English"
+      "language": "English",
+      "areas": [
+        {
+          "name": "Darling Harbour",
+          "description": "A bustling waterfront area known for its attractions, events, and dining"
+        },
+        {
+          "name": "Circular Quay",
+          "description": "The hub of Sydney Harbour featuring the iconic Sydney Opera House and Harbour Bridge"
+        },
+        {
+          "name": "The Rocks",
+          "description": "A historic area offering a blend of old-world charm, unique shopping, and trendy dining options"
+        },
+        {
+          "name": "Bondi Beach",
+          "description": "A world-famous beach destination offering pristine sands, impressive surf, and a vibrant atmosphere"
+        },
+        {
+          "name": "Manly Beach",
+          "description": "A popular destination for locals and tourists alike, offering a relaxed coastal vibe and scenic beachfront"
+        },
+        {
+          "name": "Paddington",
+          "description": "A charming, leafy suburb known for its boutiques, galleries, and vibrant cafe culture"
+        },
+        {
+          "name": "Surry Hills",
+          "description": "A trendy neighborhood offering diverse restaurants, bars, and galleries in a lively, creative atmosphere"
+        },
+        {
+          "name": "Newtown",
+          "description": "A vibrant and eclectic suburb known for its live music scene, indie theaters, and unique shopping"
+        },
+        {
+          "name": "Barangaroo",
+          "description": "A modern waterfront precinct with upscale dining, shopping, and stunning views of the Sydney skyline"
+        },
+        {
+          "name": "Double Bay",
+          "description": "An affluent harbourside suburb known for its high-end boutiques, galleries, and dining experiences"
+        },
+        {
+          "name": "Taronga Zoo",
+          "description": "A world-class zoo set in a stunning harbourside location, offering unique wildlife encounters and spectacular views"
+        },
+        {
+          "name": "Parramatta",
+          "description": "A growing cultural and commercial center with a rich history, vibrant shopping, and diverse dining options"
+        },
+        {
+          "name": "Chatswood",
+          "description": "A bustling suburban center offering a mix of entertainment, shopping, and dining experiences"
+        },
+        {
+          "name": "Marrickville",
+          "description": "A multicultural neighborhood known for its eclectic shops, lively arts scene, and diverse range of eateries"
+        }
+      ]
     },
     {
       "name": "Barcelona",
       "description": "Known for its unique architecture, world-famous soccer team, and vibrant nightlife scene.",
-      "language": "Catalan, Spanish"
+      "language": "Catalan, Spanish",
+      "areas": [
+        {
+          "name": "Las Ramblas",
+          "description": "A popular tourist destination known for its bustling pedestrian street filled with shops, cafes, and street performers"
+        },
+        {
+          "name": "El Raval",
+          "description": "A diverse and culturally rich area with a mix of contemporary art spaces, unique bars, and trendy boutiques"
+        },
+        {
+          "name": "Gothic Quarter",
+          "description": "An ancient area featuring narrow, winding streets, medieval architecture, and iconic historical sites such as Barcelona Cathedral and Plaça Reial"
+        },
+        {
+          "name": "El Poble-sec",
+          "description": "A vibrant neighborhood characterized by its lively theater scene, numerous bars, and local eateries, as well as being home to the iconic Montjuïc hill"
+        },
+        {
+          "name": "Gracia",
+          "description": "A charming district with a bohemian atmosphere, known for artistic residents, lively squares, and a variety of popular annual festivals"
+        },
+        {
+          "name": "El Born",
+          "description": "A trendy area with a mix of historical landmarks, stylish shops, and nightlife venues blended with a picturesque and romantic atmosphere"
+        },
+        {
+          "name": "Eixample",
+          "description": "A modern district known for its grid-like layout, luxurious shopping streets, and architectural masterpieces like Gaudí's Casa Batlló and La Pedrera"
+        },
+        {
+          "name": "Barceloneta",
+          "description": "A beachside neighborhood famous for its sandy beaches, fresh seafood, and lively nightlife along the waterfront"
+        },
+        {
+          "name": "Poblenou",
+          "description": "A former industrial area turned into a hub for technology and innovation, featuring art galleries, modern coworking spaces, and creative urban developments like Palo Alto Market"
+        },
+        {
+          "name": "Les Corts",
+          "description": "An upscale residential district known for its peaceful and green parks, the renowned Camp Nou stadium, and the large shopping center L'Illa Diagonal"
+        },
+        {
+          "name": "Sants-Montjuïc",
+          "description": "A vast area containing Montjuïc mountain with its beautiful gardens, cultural venues, and landmarks like the Magic Fountain, as well as the bustling Sants neighborhood with its diverse restaurants and bars"
+        },
+        {
+          "name": "Horta-Guinardó",
+          "description": "A large district with a mix of urban and natural landscapes, including the picturesque Park Güell, traditional villa-style residences, and a variety of green spaces"
+        }
+      ]
     },
     {
       "name": "Rio de Janeiro",
       "description": "Famous for its breathtaking beaches, vibrant carnival celebrations, and iconic landmarks like Christ the Redeemer.",
-      "language": "Portuguese"
+      "language": "Portuguese",
+      "areas": [
+        {
+          "name": "Ipanema",
+          "description": "An upscale neighborhood with beautiful beaches, high-end shops, and trendy cafes"
+        },
+        {
+          "name": "Santa Teresa",
+          "description": "A vibrant bohemian enclave with narrow streets, colorful buildings, and lively nightlife"
+        },
+        {
+          "name": "Lapa",
+          "description": "A lively entertainment district known for its historic arches, vibrant nightlife, and traditional samba shows"
+        },
+        {
+          "name": "Copacabana",
+          "description": "A famous neighborhood known for its iconic beaches, bustling nightlife, and vibrant atmosphere"
+        },
+        {
+          "name": "Jardim Botânico",
+          "description": "A tranquil neighborhood featuring the beautiful Rio de Janeiro Botanical Garden and lush green spaces"
+        },
+        {
+          "name": "Gloria",
+          "description": "A historic area with a diverse cultural scene, local markets, and scenic parks by the bay"
+        },
+        {
+          "name": "Leblon",
+          "description": "An upscale residential neighborhood with high-end shops, sophisticated restaurants, and picturesque beaches"
+        },
+        {
+          "name": "Barra da Tijuca",
+          "description": "A sprawling neighborhood known for its extensive beaches, large shopping malls, and variety of outdoor activities"
+        },
+        {
+          "name": "Flamengo",
+          "description": "A historic area with well-preserved architecture, scenic parks, and a rich cultural scene"
+        },
+        {
+          "name": "Botafogo",
+          "description": "A lively neighborhood known for its stunning views of Sugarloaf Mountain, shopping centers, and thriving food scene"
+        },
+        {
+          "name": "Leme",
+          "description": "A laid-back neighborhood featuring a tranquil beach, popular hiking trails, and a variety of dining options"
+        },
+        {
+          "name": "Glória",
+          "description": "A historic district with a vibrant street fair, lush parks, and classic architecture that preserves the city's past"
+        }
+      ]
     },
     {
       "name": "Dubai",
       "description": "A modern metropolis known for its futuristic skyscrapers, luxury shopping, and impressive artificial islands.",
-      "language": "Arabic"
+      "language": "Arabic",
+      "areas": [
+        {
+          "name": "Downtown Dubai",
+          "description": "Known for its modern architecture including the iconic Burj Khalifa, shopping malls, and dancing fountains."
+        },
+        {
+          "name": "Palm Jumeirah",
+          "description": "Famous for its unique palm-tree-shaped island with luxury resorts, high-end dining, and pristine beaches."
+        },
+        {
+          "name": "Jumeirah Beach Residence",
+          "description": "Popular for its beachfront promenade, The Walk, offering a wide range of shopping and dining options, as well as outdoor leisure activities."
+        },
+        {
+          "name": "Global Village",
+          "description": "A world-renowned cultural theme park and market that showcases the culture and items from countries worldwide."
+        },
+        {
+          "name": "La Mer",
+          "description": "A vibrant beachfront destination with an array of leisure and entertainment options along with shopping and dining facilities."
+        },
+        {
+          "name": "Al Seef",
+          "description": "A beautiful waterfront area with a traditional ambiance, boasting various dining, shopping, and heritage experiences."
+        },
+        {
+          "name": "Dubai Marina",
+          "description": "A luxury waterfront community featuring residential buildings, shopping malls, and a picturesque promenade with a variety of dining options."
+        },
+        {
+          "name": "Al Fahidi Historical Neighborhood",
+          "description": "A well-preserved historical area showcasing traditional Emirati architecture, museums, and art galleries."
+        },
+        {
+          "name": "Kite Beach",
+          "description": "A popular beachside destination known for its water sports, scenic views, and a vibrant community atmosphere with numerous food outlets."
+        },
+        {
+          "name": "Madinat Jumeirah",
+          "description": "A luxurious resort that replicates traditional Arab architecture, featuring hotels, restaurants, shops, and a beautiful private beach."
+        },
+        {
+          "name": "IMG Worlds of Adventure",
+          "description": "The world's largest indoor theme park featuring thrilling rides, international cartoon characters, and immersive entertainment experiences."
+        },
+        {
+          "name": "City Walk",
+          "description": "An upscale outdoor shopping and entertainment destination, offering an incredible mix of retail, dining, and leisure attractions."
+        }
+      ]
     },
     {
       "name": "Amsterdam",
       "description": "Famous for its picturesque canals, stunning architecture, and vibrant cultural scene featuring world-class museums and galleries.",
-      "language": "Dutch"
+      "language": "Dutch",
+      "areas": [
+        {
+          "name": "De Pijp",
+          "description": "Known for its vibrant atmosphere and diverse food scene, De Pijp is a lively area with streets filled with bars, cafes, and shops. It is also home to the famous Albert Cuyp Market and Sarphatipark."
+        },
+        {
+          "name": "Jordaan",
+          "description": "Once a working-class neighborhood, Jordaan is now famous for its trendy boutiques, independent art shops, and charming canals. Notable attractions include the Anne Frank House, the Westerkerk, and the Noordermarkt."
+        },
+        {
+          "name": "Oud-West",
+          "description": "This cosmopolitan district features a unique mix of cultures, making it ideal for shopping, dining, and leisure. Oud-West is home to the Ten Katemarkt, the FoodHallen, and the De Hallen cultural complex."
+        },
+        {
+          "name": "Museum Quarter",
+          "description": "This prestigious area is known for its impressive collection of art museums, including the Rijksmuseum, the Van Gogh Museum, and the Stedelijk Museum. The relaxing Vondelpark is also nearby."
+        },
+        {
+          "name": "De Wallen",
+          "description": "De Wallen, also known as the Red Light District, is famous for its nightlife, bars, and clubs, as well as its legal brothels and the Old Church. It is a lively area with historical and contemporary attractions."
+        },
+        {
+          "name": "NDSM Wharf",
+          "description": "Once a shipyard, NDSM Wharf is now a thriving cultural hotspot known for its innovative art projects, unique events, and festivals. It's a hotspot for creative minds and holds a variety of street art and exhibition spaces."
+        },
+        {
+          "name": "Amsterdam Noord",
+          "description": "This alternative side of Amsterdam offers a vibrant atmosphere, including modern cafes, street art, and exhibitions. The area is known for the A'DAM Lookout, EYE Film Institute Netherlands, and urban beach Blijburg aan Zee."
+        },
+        {
+          "name": "Leidseplein",
+          "description": "Leidseplein is a bustling square with numerous cafes, restaurants, clubs, theaters, and street performers. It's known for its vibrant nightlife, such as popular theaters like Stadsschouwburg and the Melkweg concert venue."
+        },
+        {
+          "name": "Rembrandtplein",
+          "description": "This lively square features plenty of bars, restaurants, clubs, and entertainment options. It's known for the spectacular fountains, historic sculptures, and some of Amsterdam's most iconic nightlife spots like Club Escape."
+        },
+        {
+          "name": "Eastern Docklands",
+          "description": "This modern urban district features iconic examples of modern architecture and design, such as Ceintuurbaan and Cruquius Island. The area is known for its waterfront locations, cafes, and galleries, as well as the NEMO Science Museum."
+        },
+        {
+          "name": "Artis Zoo Quarter",
+          "description": "This area is known for the Artis Royal Zoo, the oldest zoo in the Netherlands, as well as the Hortus Botanicus, one of the world's oldest botanical gardens. It's a perfect spot for nature lovers and families."
+        },
+        {
+          "name": "Spiegelkwartier",
+          "description": "As the center of Amsterdam's antiques and art trade, Spiegelkwartier is home to numerous antique stores, galleries, and auction houses. This picturesque area with charming canals is located near the Rijksmuseum and other cultural attractions."
+        }
+      ]
     },
     {
       "name": "Cape Town",
       "description": "Known for its stunning natural beauty, gorgeous beaches, and diverse cultural heritage.",
-      "language": "Afrikaans, English, Xhosa"
+      "language": "Afrikaans, English, Xhosa",
+      "areas": [
+        {
+          "name": "V&A Waterfront",
+          "description": "A popular shopping destination with a vibrant harbor, various entertainment options, and a stunning view of Table Mountain"
+        },
+        {
+          "name": "Camps Bay",
+          "description": "A fashionable residential area known for its palm-lined beach, luxurious beachfront properties, elegant restaurants, and trendy bars"
+        },
+        {
+          "name": "Kirstenbosch National Botanical Garden",
+          "description": "A world-renowned botanical garden nestled at the eastern foot of Table Mountain, featuring diverse flora, walking trails, and stunning landscape designs"
+        },
+        {
+          "name": "Muizenberg",
+          "description": "A coastal suburb known for its vibrant and iconic brightly colored beach huts, popular surfing spots, and charming eateries"
+        },
+        {
+          "name": "Bo-Kaap",
+          "description": "A historical area nestled on the slopes of Signal Hill, famous for its brightly colored houses, cobblestoned streets, and rich Cape Malay culture"
+        },
+        {
+          "name": "Constantia",
+          "description": "A prestigious suburb known for its luxurious estates, stunning vineyards, and the historic Groot Constantia wine estate"
+        },
+        {
+          "name": "Sea Point",
+          "description": "A bustling oceanfront area offering a scenic promenade, numerous dining options, and a lively atmosphere perfect for outdoor activities"
+        },
+        {
+          "name": "Hout Bay",
+          "description": "A picturesque fishing village surrounded by mountains, offering a beautiful marina, the World of Birds Wildlife Sanctuary, and various local markets"
+        },
+        {
+          "name": "Noordhoek",
+          "description": "A tranquil rural community featuring a scenic beach, horse riding experiences, and the unique Cape Point Vineyards"
+        },
+        {
+          "name": "Clifton",
+          "description": "An affluent suburb boasting stunning, sheltered beaches, luxurious real estate, and vibrant nightlife"
+        },
+        {
+          "name": "Kalk Bay",
+          "description": "A charming fishing village offering vibrant art galleries, trendy cafes, antique stores, and a working harbor with fresh seafood stalls"
+        }
+      ]
     },
     {
       "name": "Bangkok",
       "description": "A city of contrasts, famous for its vibrant street life, historic temples, and modern shopping malls.",
-      "language": "Thai"
+      "language": "Thai",
+      "areas": []
     },
     {
       "name": "Berlin",
       "description": "Known for its vibrant arts and culture scene, significant historical landmarks, and world-renowned nightlife.",
-      "language": "German"
+      "language": "German",
+      "areas": []
     },
     {
       "name": "Vancouver",
       "description": "A picturesque coastal city known for its natural beauty, outdoor recreational activities, and thriving film industry.",
-      "language": "English"
+      "language": "English",
+      "areas": []
     },
     {
       "name": "Seoul",
       "description": "A modern metropolis known for innovative technology, unique fashion, and traditional Korean cuisine.",
-      "language": "Korean"
+      "language": "Korean",
+      "areas": []
     },
     {
       "name": "Buenos Aires",
       "description": "Known for its passionate tango dancing, historic neighborhoods, and delicious Argentine cuisine.",
-      "language": "Spanish"
+      "language": "Spanish",
+      "areas": []
     },
     {
       "name": "Marrakesh",
       "description": "A vibrant city in Morocco known for its bustling souks, stunning palaces, and traditional Moroccan architecture.",
-      "language": "Arabic"
+      "language": "Arabic",
+      "areas": []
     },
     {
       "name": "Auckland",
       "description": "Known for its stunning natural beauty, outdoor recreational activities, and thriving arts and culture scene.",
-      "language": "English, Maori"
+      "language": "English, Maori",
+      "areas": []
     },
     {
       "name": "Edinburgh",
       "description": "Known for its stunning castle, vibrant festival season, and historic streets lined with cobblestones.",
-      "language": "English, Scottish Gaelic"
+      "language": "English, Scottish Gaelic",
+      "areas": []
     },
     {
       "name": "Montreal",
       "description": "A bustling city in Quebec, Canada, known for its charming Old Town, world-class dining, and thriving nightlife scene.",
-      "language": "French, English"
+      "language": "French, English",
+      "areas": []
     },
     {
       "name": "Bergen",
       "description": "A picturesque city in Norway known for its stunning Scandinavian architecture, historic wharf, and scenic fjords.",
-      "language": "Norwegian"
+      "language": "Norwegian",
+      "areas": []
     },
     {
       "name": "Cusco",
       "description": "A city in Peru known for its stunning Inca ruins, historic colonial architecture, and vibrant arts and culture scene.",
-      "language": "Quechua, Spanish"
+      "language": "Quechua, Spanish",
+      "areas": []
     },
     {
       "name": "Melbourne",
       "description": "A cosmopolitan city in Australia known for its vibrant arts and culture scene, beautiful parks, and thriving coffee culture.",
-      "language": "English"
+      "language": "English",
+      "areas": []
     },
     {
       "name": "Stockholm",
       "description": "A beautiful city in Sweden known for its stunning architecture, scenic canals, and world-class seafood.",
-      "language": "Swedish"
+      "language": "Swedish",
+      "areas": []
     },
     {
       "name": "Helsinki",
       "description": "A vibrant city in Finland known for its stunning architecture, beautiful parks, and thriving sauna culture.",
-      "language": "Finnish, Swedish"
+      "language": "Finnish, Swedish",
+      "areas": []
     },
     {
       "name": "Lisbon",
       "description": "A charming coastal city in Portugal known for its historic architecture, stunning views, and vibrant music scene.",
-      "language": "Portuguese"
+      "language": "Portuguese",
+      "areas": []
     },
     {
       "name": "Prague",
       "description": "A stunningly beautiful city in the Czech Republic known for its historic architecture, rich cultural heritage, and famous beer.",
-      "language": "Czech"
+      "language": "Czech",
+      "areas": []
     },
     {
       "name": "Copenhagen",
       "description": "A city in Denmark known for its beautiful architecture, cozy cafes, and thriving bicycle culture.",
-      "language": "Danish"
+      "language": "Danish",
+      "areas": []
     },
     {
       "name": "Hanoi",
       "description": "The capital of Vietnam known for its historic Old Quarter, delicious street food, and scenic lakes.",
-      "language": "Vietnamese"
+      "language": "Vietnamese",
+      "areas": []
     },
     {
       "name": "Reykjavik",
       "description": "A city in Iceland known for its stunning natural beauty, vibrant nightlife, and unique culture.",
-      "language": "Icelandic"
+      "language": "Icelandic",
+      "areas": []
     },
     {
       "name": "Jerusalem",
       "description": "A city in Israel known for its rich history, important religious sites, and vibrant cultural scene.",
-      "language": "Hebrew, Arabic"
+      "language": "Hebrew, Arabic",
+      "areas": []
     },
     {
       "name": "Tbilisi",
       "description": "The capital of Georgia known for its charming Old Town, delicious cuisine, and stunning mountain views.",
-      "language": "Georgian"
+      "language": "Georgian",
+      "areas": []
     },
     {
       "name": "Wellington",
       "description": "A vibrant city in New Zealand known for its stunning waterfront, vibrant arts and culture scene, and thriving craft beer scene.",
-      "language": "English, Maori"
+      "language": "English, Maori",
+      "areas": []
     },
     {
       "name": "Beirut",
       "description": "A vibrant city in Lebanon known for its beautiful beaches, historic landmarks, and rich cultural heritage.",
-      "language": "Arabic, French"
+      "language": "Arabic, French",
+      "areas": []
     },
     {
       "name": "Cartagena",
       "description": "A historic city in Colombia known for its colorful colonial architecture, beautiful beaches, and vibrant nightlife.",
-      "language": "Spanish"
+      "language": "Spanish",
+      "areas": []
     },
     {
       "name": "Oslo",
       "description": "The capital of Norway known for its stunning Scandinavian architecture, beautiful fjords, and thriving music scene.",
-      "language": "Norwegian"
+      "language": "Norwegian",
+      "areas": []
     },
     {
       "name": "Krakow",
       "description": "A historic city in Poland known for its beautiful medieval architecture, vibrant cultural scene, and colorful festivals.",
-      "language": "Polish"
+      "language": "Polish",
+      "areas": []
     },
     {
       "name": "San Francisco",
       "description": "A city in California known for its iconic Golden Gate Bridge, world-class cuisine, and thriving tech industry.",
-      "language": "English"
+      "language": "English",
+      "areas": []
     },
     {
       "name": "Florence",
       "description": "A beautiful city in Italy known for its stunning Renaissance architecture, exquisite art, and world-renowned cuisine.",
-      "language": "Italian"
+      "language": "Italian",
+      "areas": []
     },
     {
       "name": "Singapore",
       "description": "A modern and bustling island city-state known for its stunning gardens, vibrant street food scene, and unique cultural fusion.",
-      "language": "English, Malay, Tamil, Mandarin Chinese"
+      "language": "English, Malay, Tamil, Mandarin Chinese",
+      "areas": []
     },
     {
       "name": "Dublin",
       "description": "A charming city in Ireland known for its friendly locals, lively music scene, and world-famous pub culture.",
-      "language": "Irish, English"
+      "language": "Irish, English",
+      "areas": []
     },
     {
       "name": "Istanbul",
       "description": "The city where East meets West, known for its rich history, stunning architecture, and delicious cuisine.",
-      "language": "Turkish"
+      "language": "Turkish",
+      "areas": []
     },
     {
       "name": "Budapest",
       "description": "Known for its thermal baths, rich history, and stunning architecture.",
-      "language": "Hungarian"
+      "language": "Hungarian",
+      "areas": []
     },
     {
       "name": "Seville",
       "description": "Famous for its beautiful architecture, flamenco dancing, and delicious cuisine.",
-      "language": "Spanish"
+      "language": "Spanish",
+      "areas": []
     },
     {
       "name": "Krabi",
       "description": "A tropical paradise in southern Thailand, known for its stunning beaches and limestone cliffs.",
-      "language": "Thai"
+      "language": "Thai",
+      "areas": []
     },
     {
       "name": "Austin",
       "description": "The capital of Texas, known for its music scene, barbecue, and outdoor adventures.",
-      "language": "English"
+      "language": "English",
+      "areas": []
     },
     {
       "name": "Chiang Mai",
       "description": "A laid-back city in northern Thailand, known for its temples, night markets, and beautiful scenery.",
-      "language": "Thai"
+      "language": "Thai",
+      "areas": []
     },
     {
       "name": "Bariloche",
       "description": "A picturesque city in Patagonia, Argentina, known for its stunning lakes, mountains, and chocolate.",
-      "language": "Spanish"
+      "language": "Spanish",
+      "areas": []
     },
     {
       "name": "Amman",
       "description": "A bustling city in Jordan, known for its ancient ruins, vibrant culture, and delicious food.",
-      "language": "Arabic"
+      "language": "Arabic",
+      "areas": []
     },
     {
       "name": "Dubrovnik",
       "description": "A beautiful coastal city in Croatia, famous for its Old Town, picturesque seafront, and stunning views.",
-      "language": "Croatian"
+      "language": "Croatian",
+      "areas": []
     },
     {
       "name": "Brisbane",
       "description": "A vibrant city in Australia, known for its sunny climate, cultural scene, and easy access to the Great Barrier Reef and Gold Coast.",
-      "language": "English"
+      "language": "English",
+      "areas": []
     },
     {
       "name": "Athens",
       "description": "The capital of Greece and birthplace of democracy, known for its ancient ruins, rich history, and delicious cuisine.",
-      "language": "Greek"
+      "language": "Greek",
+      "areas": []
     },
     {
       "name": "São Paulo",
       "description": "The largest city in Brazil, known for its vibrant street art, lively nightlife, and delicious food scene.",
-      "language": "Portuguese"
+      "language": "Portuguese",
+      "areas": []
     },
     {
       "name": "Kyoto",
       "description": "A beautiful city in Japan, famous for its numerous temples and shrines, traditional gardens, and delicious cuisine.",
-      "language": "Japanese"
+      "language": "Japanese",
+      "areas": []
     },
     {
       "name": "Mexico City",
       "description": "The capital of Mexico, known for its rich history, colorful architecture, and delicious street food.",
-      "language": "Spanish"
+      "language": "Spanish",
+      "areas": []
     },
     {
       "name": "Seattle",
       "description": "A vibrant city in the Pacific Northwest of the United States, known for its coffee culture, music scene, and stunning waterfront.",
-      "language": "English"
+      "language": "English",
+      "areas": []
     },
     {
       "name": "Jaipur",
       "description": "A beautiful city in Rajasthan, India, famous for its stunning palaces, vibrant culture, and colorful markets.",
-      "language": "Hindi"
+      "language": "Hindi",
+      "areas": []
     },
     {
       "name": "Lima",
       "description": "The vibrant capital of Peru, known for its ancient ruins, delicious cuisine, and colorful neighborhoods.",
-      "language": "Spanish"
+      "language": "Spanish",
+      "areas": []
     },
     {
       "name": "Fez",
       "description": "A charming city in Morocco, famous for its ancient medina, colorful markets, and beautiful mosques.",
-      "language": "Arabic"
+      "language": "Arabic",
+      "areas": []
     },
     {
       "name": "Toronto",
       "description": "A vibrant city in Canada, known for its diverse culture, stunning waterfront, and excellent food scene.",
-      "language": "English and French"
+      "language": "English and French",
+      "areas": []
     },
     {
       "name": "Hong Kong",
       "description": "known for its bustling financial center, impressive skyline, and food scene",
-      "language": "Cantonese, English"
+      "language": "Cantonese, English",
+      "areas": []
     },
     {
       "name": "Mumbai",
       "description": "known as the city of dreams, a bustling metropolis with a vibrant mix of cultures and a thriving film industry",
-      "language": "Hindi, Marathi"
+      "language": "Hindi, Marathi",
+      "areas": []
     },
     {
       "name": "Santorini",
       "description": "known for its stunning views, white-washed buildings, and beautiful sunset",
-      "language": "Greek"
+      "language": "Greek",
+      "areas": []
     },
     {
       "name": "San Diego",
       "description": "known for its beautiful beaches, perfect weather, and rich cultural attractions",
-      "language": "English, Spanish"
+      "language": "English, Spanish",
+      "areas": []
     }
   ]
 }

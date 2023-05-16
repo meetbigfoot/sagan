@@ -10,3 +10,46 @@ body {
   margin: 0;
   text-rendering: geometricPrecision;
 }
+
+/* logs */
+
+#logs {
+  display: flex;
+  flex-direction: column;
+  max-width: 24rem;
+  padding: 1rem;
+}
+.log {
+  align-items: baseline;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  font-size: 12px;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+}
+.log h2 {
+  font-size: inherit;
+  margin: unset;
+  max-width: 12rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.log-time {
+  flex: 1;
+  opacity: 0.3;
+  text-align: right;
+}
+.edit {
+  color: #da0;
+}
+.error {
+  color: #d04;
+}
+
+#logs:hover .log {
+  opacity: 0.3;
+}
+#logs:hover .log:hover {
+  opacity: 1;
+}

@@ -2,6 +2,7 @@
   {
     "duration": 0,
     "event": "Init AutoGPT",
+    "model": "turbo",
     "stats": {
       "total_cities": 1
     },
@@ -10,6 +11,7 @@
   {
     "duration": 15033,
     "event": "Added Tokyo, Paris, Sydney",
+    "model": "turbo",
     "stats": {
       "total_cities": 4
     },
@@ -18,6 +20,7 @@
   {
     "duration": 14319,
     "event": "Added Barcelona, Rio de Janeiro, Dubai",
+    "model": "turbo",
     "stats": {
       "total_cities": 7
     },
@@ -26,6 +29,7 @@
   {
     "duration": 13319,
     "event": "Added Amsterdam, Cape Town, Bangkok",
+    "model": "turbo",
     "stats": {
       "total_cities": 10
     },
@@ -34,6 +38,7 @@
   {
     "duration": 14612,
     "event": "Added Berlin, Vancouver, Seoul",
+    "model": "turbo",
     "stats": {
       "total_cities": 13
     },
@@ -42,6 +47,7 @@
   {
     "duration": 14283,
     "event": "Added Buenos Aires, Marrakesh, Auckland",
+    "model": "turbo",
     "stats": {
       "total_cities": 16
     },
@@ -50,6 +56,7 @@
   {
     "duration": 16202,
     "event": "Added Edinburgh, Montreal, Bergen",
+    "model": "turbo",
     "stats": {
       "total_cities": 19
     },
@@ -58,6 +65,7 @@
   {
     "duration": 15427,
     "event": "Added Cusco, Melbourne, Stockholm",
+    "model": "turbo",
     "stats": {
       "total_cities": 22
     },
@@ -66,6 +74,7 @@
   {
     "duration": 15658,
     "event": "Added Helsinki, Lisbon, Prague",
+    "model": "turbo",
     "stats": {
       "total_cities": 25
     },
@@ -74,6 +83,7 @@
   {
     "duration": 14646,
     "event": "Added Copenhagen, Hanoi, Reykjavik",
+    "model": "turbo",
     "stats": {
       "total_cities": 28
     },
@@ -82,6 +92,7 @@
   {
     "duration": 14915,
     "event": "Added Jerusalem, Tbilisi, Wellington",
+    "model": "turbo",
     "stats": {
       "total_cities": 31
     },
@@ -90,6 +101,7 @@
   {
     "duration": 15139,
     "event": "Added Beirut, Cartagena, Oslo",
+    "model": "turbo",
     "stats": {
       "total_cities": 34
     },
@@ -98,6 +110,7 @@
   {
     "duration": 15241,
     "event": "Added Krakow, San Francisco, Barcelona",
+    "model": "turbo",
     "stats": {
       "total_cities": 36
     },
@@ -106,6 +119,7 @@
   {
     "duration": 16928,
     "event": "Added Florence, Singapore, Dublin",
+    "model": "turbo",
     "stats": {
       "total_cities": 39
     },
@@ -114,6 +128,7 @@
   {
     "duration": 0,
     "event": "Init AutoGPT",
+    "model": "turbo",
     "stats": {
       "total_cities": 39
     },
@@ -122,6 +137,7 @@
   {
     "duration": 0,
     "event": "Init AutoGPT",
+    "model": "turbo",
     "stats": {
       "total_cities": 39
     },
@@ -130,6 +146,7 @@
   {
     "duration": 0,
     "event": "Init AutoGPT",
+    "model": "turbo",
     "stats": {
       "total_cities": 39
     },
@@ -138,6 +155,7 @@
   {
     "duration": 12057,
     "event": "Error adding cities: SyntaxError: Unexpected non-whitespace character after JSON at position 151",
+    "model": "turbo",
     "stats": {
       "total_cities": 39
     },
@@ -146,6 +164,7 @@
   {
     "duration": 14995,
     "event": "Added Rio de Janeiro, Istanbul, Dublin",
+    "model": "turbo",
     "stats": {
       "total_cities": 40
     },
@@ -154,6 +173,7 @@
   {
     "duration": 14267,
     "event": "Added Budapest, Seville, Krabi",
+    "model": "turbo",
     "stats": {
       "total_cities": 43
     },
@@ -162,6 +182,7 @@
   {
     "duration": 16515,
     "event": "Added Marrakesh, Cape Town, Austin",
+    "model": "turbo",
     "stats": {
       "total_cities": 44
     },
@@ -170,6 +191,7 @@
   {
     "duration": 17086,
     "event": "Added Rio de Janeiro, Stockholm, Chiang Mai",
+    "model": "turbo",
     "stats": {
       "total_cities": 45
     },
@@ -178,6 +200,7 @@
   {
     "duration": 16667,
     "event": "Added Buenos Aires, Dubai, Copenhagen",
+    "model": "turbo",
     "stats": {
       "total_cities": 45
     },
@@ -186,6 +209,7 @@
   {
     "duration": 17944,
     "event": "Added Bariloche, Amman, Cape Town",
+    "model": "turbo",
     "stats": {
       "total_cities": 47
     },
@@ -194,6 +218,7 @@
   {
     "duration": 17510,
     "event": "Added Dubrovnik, Brisbane, Athens",
+    "model": "turbo",
     "stats": {
       "total_cities": 50
     },
@@ -202,6 +227,7 @@
   {
     "duration": 16284,
     "event": "Added São Paulo, Edinburgh, Kyoto",
+    "model": "turbo",
     "stats": {
       "total_cities": 52
     },
@@ -210,6 +236,7 @@
   {
     "duration": 15050,
     "event": "Added Mexico City, Seattle, Jaipur",
+    "model": "turbo",
     "stats": {
       "total_cities": 55
     },
@@ -218,6 +245,7 @@
   {
     "duration": 16481,
     "event": "Added Lima, Dublin, Bangkok",
+    "model": "turbo",
     "stats": {
       "total_cities": 56
     },
@@ -226,6 +254,7 @@
   {
     "duration": 15573,
     "event": "Added Fez, Toronto, Prague",
+    "model": "turbo",
     "stats": {
       "total_cities": 58
     },
@@ -234,6 +263,7 @@
   {
     "duration": 492,
     "event": "Error adding cities: TypeError: Cannot read properties of undefined (reading 'forEach')",
+    "model": "turbo",
     "stats": {
       "total_cities": 58
     },
@@ -242,6 +272,7 @@
   {
     "duration": 434,
     "event": "Error adding cities: TypeError: Cannot read properties of undefined (reading 'forEach')",
+    "model": "turbo",
     "stats": {
       "total_cities": 58
     },
@@ -250,6 +281,7 @@
   {
     "duration": 658,
     "event": "Error adding cities: TypeError: Cannot read properties of undefined (reading 'forEach')",
+    "model": "turbo",
     "stats": {
       "total_cities": 58
     },
@@ -258,6 +290,7 @@
   {
     "duration": 1416,
     "event": "Error adding cities: TypeError: Cannot read properties of undefined (reading 'forEach')",
+    "model": "turbo",
     "stats": {
       "total_cities": 58
     },
@@ -266,6 +299,7 @@
   {
     "duration": 2204,
     "event": "Error adding cities: TypeError: Cannot read properties of undefined (reading 'forEach')",
+    "model": "turbo",
     "stats": {
       "total_cities": 58
     },
@@ -274,6 +308,7 @@
   {
     "duration": 10251,
     "event": "Error adding cities: TypeError: Cannot read properties of undefined (reading 'forEach')",
+    "model": "turbo",
     "stats": {
       "total_cities": 58
     },
@@ -282,6 +317,7 @@
   {
     "duration": 14837,
     "event": "Error adding cities: SyntaxError: Unexpected end of JSON input",
+    "model": "turbo",
     "stats": {
       "total_cities": 58
     },
@@ -290,6 +326,7 @@
   {
     "duration": 14031,
     "event": "Error adding cities: SyntaxError: Unexpected end of JSON input",
+    "model": "turbo",
     "stats": {
       "total_cities": 58
     },
@@ -298,6 +335,7 @@
   {
     "duration": 13853,
     "event": "Error adding cities: SyntaxError: Unexpected end of JSON input",
+    "model": "turbo",
     "stats": {
       "total_cities": 58
     },
@@ -306,6 +344,7 @@
   {
     "duration": 14007,
     "event": "Error adding cities: SyntaxError: Unexpected end of JSON input",
+    "model": "turbo",
     "stats": {
       "total_cities": 58
     },
@@ -314,6 +353,7 @@
   {
     "duration": 15966,
     "event": "Error adding cities: SyntaxError: Unexpected end of JSON input",
+    "model": "turbo",
     "stats": {
       "total_cities": 58
     },
@@ -322,6 +362,7 @@
   {
     "duration": 0,
     "event": "Init AutoGPT",
+    "model": "gpt4",
     "stats": {
       "total_cities": 58
     },
@@ -330,6 +371,7 @@
   {
     "duration": 10472,
     "event": "Error adding cities: SyntaxError: Unexpected non-whitespace character after JSON at position 114",
+    "model": "gpt4",
     "stats": {
       "total_cities": 58
     },
@@ -338,6 +380,7 @@
   {
     "duration": 14624,
     "event": "Added Hong Kong, Dublin, Rio de Janeiro",
+    "model": "gpt4",
     "stats": {
       "total_cities": 59
     },
@@ -346,6 +389,7 @@
   {
     "duration": 14489,
     "event": "Added Mumbai, Stockholm, Cape Town",
+    "model": "gpt4",
     "stats": {
       "total_cities": 60
     },
@@ -354,6 +398,7 @@
   {
     "duration": 14226,
     "event": "Added Copenhagen, Dubai, Krakow",
+    "model": "gpt4",
     "stats": {
       "total_cities": 60
     },
@@ -362,6 +407,7 @@
   {
     "duration": 13721,
     "event": "Added Edinburgh, Rio de Janeiro, Fez",
+    "model": "gpt4",
     "stats": {
       "total_cities": 60
     },
@@ -370,6 +416,7 @@
   {
     "duration": 14231,
     "event": "Added Santorini, Toronto, Seoul",
+    "model": "gpt4",
     "stats": {
       "total_cities": 61
     },
@@ -378,6 +425,7 @@
   {
     "duration": 13454,
     "event": "Added Cape Town, Budapest, Krabi",
+    "model": "gpt4",
     "stats": {
       "total_cities": 61
     },
@@ -386,6 +434,7 @@
   {
     "duration": 14955,
     "event": "Added Montreal, Dubrovnik, Krakow",
+    "model": "gpt4",
     "stats": {
       "total_cities": 61
     },
@@ -394,6 +443,7 @@
   {
     "duration": 20055,
     "event": "Added Amsterdam, Dublin, Kyoto",
+    "model": "gpt4",
     "stats": {
       "total_cities": 61
     },
@@ -402,6 +452,7 @@
   {
     "duration": 14718,
     "event": "Added Cusco, Berlin, Krabi",
+    "model": "gpt4",
     "stats": {
       "total_cities": 61
     },
@@ -410,6 +461,7 @@
   {
     "duration": 12899,
     "event": "Added San Diego, Reykjavik, Marrakesh",
+    "model": "gpt4",
     "stats": {
       "total_cities": 62
     },
@@ -418,9 +470,403 @@
   {
     "duration": 0,
     "event": "Redundant logs removed for 58 additional failed requests",
+    "model": "gpt4",
     "stats": {
       "total_cities": 62
     },
     "time": 1683897601702
+  },
+  {
+    "duration": 0,
+    "event": "Init AutoGPT",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684192734468
+  },
+  {
+    "duration": 0,
+    "event": "Edit: add empty areas key to each city",
+    "model": "gpt4",
+    "time": 1684193045793
+  },
+  {
+    "duration": 0,
+    "event": "Init AutoGPT",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684193324569
+  },
+  {
+    "duration": 1537,
+    "event": "Error adding cities: TypeError: Cannot read properties of undefined (reading 'forEach')",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684193326107
+  },
+  {
+    "duration": 0,
+    "event": "Init AutoGPT",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684194218147
+  },
+  {
+    "duration": 27789,
+    "event": "Added Times Square, Central Park, SoHo",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684194245937
+  },
+  {
+    "duration": 0,
+    "event": "Init AutoGPT",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684194870046
+  },
+  {
+    "duration": 33589,
+    "event": "Added Times Square, Central Park, Brooklyn Bridge Park",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684194903635
+  },
+  {
+    "duration": 23420,
+    "event": "Added SoHo, Greenwich Village, Coney Island",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684194927055
+  },
+  {
+    "duration": 23305,
+    "event": "Added Battery Park, DUMBO, Chinatown",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684194950360
+  },
+  {
+    "duration": 24302,
+    "event": "Added Williamsburg, Chelsea, Harlem",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684194974663
+  },
+  {
+    "duration": 22668,
+    "event": "Added Shibuya, Asakusa, Akihabara",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684194997331
+  },
+  {
+    "duration": 30434,
+    "event": "Added Ginza, Harajuku, Shinjuku",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195027766
+  },
+  {
+    "duration": 23171,
+    "event": "Added Odaiba, Roppongi, ",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195050937
+  },
+  {
+    "duration": 24712,
+    "event": "Added Ikebukuro, Tsukiji, Ebisu",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195075650
+  },
+  {
+    "duration": 30691,
+    "event": "Added Le Marais, Montmartre, Saint-Germain-des-Prés",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195106342
+  },
+  {
+    "duration": 0,
+    "event": "Init AutoGPT",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195121008
+  },
+  {
+    "duration": 25352,
+    "event": "Added Montmartre, Le Marais, Quartier Latin",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195146361
+  },
+  {
+    "duration": 27074,
+    "event": "Added Saint-Germain-des-Prés, Canal Saint-Martin, La Villette",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195173435
+  },
+  {
+    "duration": 25479,
+    "event": "Added Bastille, Champs-Élysées, Jardin du Luxembourg",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195198914
+  },
+  {
+    "duration": 26969,
+    "event": "Added Ile de la Cité, Belleville, Les Invalides",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195225884
+  },
+  {
+    "duration": 29970,
+    "event": "Added Darling Harbour, Circular Quay, The Rocks, Bondi Beach, Manly Beach",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195255855
+  },
+  {
+    "duration": 46482,
+    "event": "Added Darling Harbour, Circular Quay, The Rocks, Bondi Beach, Manly Beach, Paddington, Surry Hills, Newtown",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195302338
+  },
+  {
+    "duration": 69063,
+    "event": "Added Darling Harbour, Circular Quay, The Rocks, Bondi Beach, Manly Beach, Paddington, Surry Hills, Newtown, Barangaroo, Double Bay, Taronga Zoo",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195371402
+  },
+  {
+    "duration": 91915,
+    "event": "Added Darling Harbour, Circular Quay, The Rocks, Bondi Beach, Manly Beach, Paddington, Surry Hills, Newtown, Barangaroo, Double Bay, Taronga Zoo, Parramatta, Chatswood, Marrickville",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195463317
+  },
+  {
+    "duration": 0,
+    "event": "Init AutoGPT",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195470637
+  },
+  {
+    "duration": 47735,
+    "event": "Added Las Ramblas, El Raval, Gothic Quarter, El Poble-sec, Gracia, El Born",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195518373
+  },
+  {
+    "duration": 51609,
+    "event": "Added Eixample, Barceloneta, Poblenou, Les Corts, Sants-Montjuïc, Horta-Guinardó",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195569982
+  },
+  {
+    "duration": 20524,
+    "event": "Added Ipanema, Santa Teresa, Lapa",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195590507
+  },
+  {
+    "duration": 22262,
+    "event": "Added Copacabana, Jardim Botânico, Gloria",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195612770
+  },
+  {
+    "duration": 20028,
+    "event": "Added Leblon, Barra da Tijuca, Flamengo",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195632799
+  },
+  {
+    "duration": 23850,
+    "event": "Added Botafogo, Leme, Glória",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195656650
+  },
+  {
+    "duration": 90232,
+    "event": "Error adding areas: TypeError: Cannot read properties of undefined (reading 'forEach')",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195746882
+  },
+  {
+    "duration": 0,
+    "event": "Init AutoGPT",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195811313
+  },
+  {
+    "duration": 42366,
+    "event": "Added Downtown Dubai, Palm Jumeirah, Jumeirah Beach Residence, Global Village, La Mer, Al Seef",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195853680
+  },
+  {
+    "duration": 61958,
+    "event": "Added Downtown Dubai, Palm Jumeirah, Jumeirah Beach Residence, Global Village, La Mer, Al Seef, Dubai Marina, Al Fahidi Historical Neighborhood, Kite Beach",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195915638
+  },
+  {
+    "duration": 81641,
+    "event": "Added Downtown Dubai, Palm Jumeirah, Jumeirah Beach Residence, Global Village, La Mer, Al Seef, Dubai Marina, Al Fahidi Historical Neighborhood, Kite Beach, Madinat Jumeirah, IMG Worlds of Adventure, City Walk",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684195997281
+  },
+  {
+    "duration": 44619,
+    "event": "Added De Pijp, Jordaan, Oud-West",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196041901
+  },
+  {
+    "duration": 32462,
+    "event": "Added Museum Quarter, De Wallen, NDSM Wharf",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196074364
+  },
+  {
+    "duration": 46569,
+    "event": "Added Amsterdam Noord, Leidseplein, Rembrandtplein",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196120934
+  },
+  {
+    "duration": 31882,
+    "event": "Added Eastern Docklands, Artis Zoo Quarter, Spiegelkwartier",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196152816
+  },
+  {
+    "duration": 40489,
+    "event": "Added V&A Waterfront, Camps Bay, Kirstenbosch National Botanical Garden, Muizenberg, Bo-Kaap",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196193306
+  },
+  {
+    "duration": 63280,
+    "event": "Added Constantia, Sea Point, Hout Bay, V&A Waterfront, Camps Bay, Kirstenbosch National Botanical Garden, Muizenberg, Bo-Kaap",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196256586
+  },
+  {
+    "duration": 77382,
+    "event": "Added Noordhoek, Clifton, Kalk Bay, Constantia, Sea Point, Hout Bay, V&A Waterfront, Camps Bay, Kirstenbosch National Botanical Garden, Muizenberg, Bo-Kaap",
+    "model": "gpt4",
+    "stats": {
+      "total_cities": 62
+    },
+    "time": 1684196333968
   }
 ]
