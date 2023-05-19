@@ -6,6 +6,10 @@
     <meta name="mobile-web-app-capable" content="yes" />
     <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css" />
     <link rel="stylesheet" href="styles.css" />
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
     <script defer src="https://unpkg.com/dayjs/dayjs.min.js"></script>
     <script defer src="https://unpkg.com/dayjs/plugin/relativeTime.js"></script>
     <script defer src="https://kit.fontawesome.com/0bef9420dc.js" crossorigin="anonymous"></script>
@@ -18,7 +22,11 @@
       <h1>Bigfoot</h1>
       <p>Where do we go? My lovely.</p>
     </header>
-    <div id="breadcrumbs"></div>
+    <div id="toolbar">
+      <div id="breadcrumbs"></div>
+      <div class="error"></div>
+      <div id="actions"></div>
+    </div>
     <div id="cards"></div>
     <div id="logs">
       <div id="logs-header">

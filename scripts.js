@@ -3,6 +3,28 @@ const q = document.querySelectorAll.bind(document)
 
 dayjs.extend(dayjs_plugin_relativeTime)
 
+const app = firebase.initializeApp({
+  apiKey: 'AIzaSyDF5S92g7onrFBt18mEqeBYzYAXKhxCydk',
+  authDomain: 'bigfoot-auth-demo.firebaseapp.com',
+  databaseURL: 'https://bigfoot-auth-demo-default-rtdb.firebaseio.com',
+  projectId: 'bigfoot-auth-demo',
+  storageBucket: 'bigfoot-auth-demo.appspot.com',
+  messagingSenderId: '462881533517',
+  appId: '1:462881533517:web:344c270faac0f6d086f604',
+  measurementId: 'G-S2PJ5C3T0C',
+})
+// Firebase Analytics is automatically initialized
+const auth = firebase.auth()
+
+const database = firebase.database()
+// const saveData = data => {
+//   database
+//     .ref()
+//     .set(data)
+//     .then(() => console.log('Data written to Realtime Database successfully!'))
+//     .catch(error => console.error('Error writing data to Realtime Database:', error))
+// }
+
 const url = location.host.startsWith('l') ? '' : '/sagan'
 
 fetch(`${url}/logs.json`)
@@ -41,16 +63,16 @@ fetch(`${url}/logs.json`)
 
 g('logs-header').addEventListener('click', e => g('logs').remove())
 
-let state
+let cache
 
-fetch(`${url}/data.json`)
-  .then(response => response.json())
-  .then(data => {
-    state = data
-    renderCities(data)
-  })
+database.ref().on('value', snapshot => {
+  const data = snapshot.val()
+  cache = data
+  renderCities(data)
+})
 
 const renderCities = data => {
+  g('actions').innerHTML = ''
   g('cards').innerHTML = ''
   resetBreadcrumbs()
   data.cities.forEach(city => {
@@ -87,7 +109,7 @@ const resetBreadcrumbs = () => {
   const breadcrumb = document.createElement('div')
   breadcrumb.className = 'breadcrumb'
   breadcrumb.textContent = 'Cities'
-  breadcrumb.addEventListener('click', e => renderCities(state))
+  breadcrumb.addEventListener('click', e => renderCities(cache))
   g('breadcrumbs').innerHTML = ''
   g('breadcrumbs').appendChild(breadcrumb)
 }
@@ -112,7 +134,7 @@ const renderAreas = city => {
   city.areas.forEach(area => {
     const card = document.createElement('div')
     card.className = 'card'
-    card.addEventListener('click', e => renderPlans(area))
+    card.addEventListener('click', e => renderPlans(area, city))
 
     const h2 = document.createElement('h2')
     h2.className = 'card-name'
@@ -129,7 +151,7 @@ const renderAreas = city => {
   })
 }
 
-const renderPlans = area => {
+const renderPlans = (area, city) => {
   g('cards').innerHTML = ''
 
   const breadcrumb = document.createElement('div')
@@ -137,7 +159,86 @@ const renderPlans = area => {
   breadcrumb.textContent = area.name
   g('breadcrumbs').appendChild(breadcrumb)
 
-  area.plans.length
+  const generate = document.createElement('button')
+  generate.textContent = 'Generate new plan for this area'
+  generate.addEventListener('click', e => {
+    // double loop #shoelace
+    database
+      .ref('cities')
+      .orderByChild('name')
+      .equalTo(city.name)
+      .once('value')
+      .then(citySnapshot => {
+        const cityKey = Object.keys(citySnapshot.val())[0]
+        database
+          .ref(`cities/${cityKey}/areas`)
+          .orderByChild('name')
+          .equalTo(area.name)
+          .once('value')
+          .then(areas => {
+            const areaKey = Object.keys(areas.val())[0]
+            areas.forEach(areaSnapshot => {
+              const areaRef = database.ref(`cities/${cityKey}/areas/${areaKey}`)
+              const plansRef = areaRef.child('plans')
+
+              plansRef.once('value').then(plansSnapshot => {
+                generate.disabled = true
+                generate.textContent = 'Generating new plan…'
+                try {
+                  turbo([
+                    {
+                      role: 'system',
+                      content: `You are helping me generate a large JSON file.`,
+                    },
+                    {
+                      role: 'user',
+                      content: `Plan another full day of experiences in ${area.name} in ${
+                        city.name
+                      }. Return a single JSON object copying this schema: ${JSON.stringify({
+                        plans: [
+                          {
+                            title: 'a fun title using emojis',
+                            parts: [
+                              {
+                                time_of_day: 'morning',
+                                places: [
+                                  {
+                                    name: 'Example',
+                                    address: 'Example',
+                                    latitude: 12.34,
+                                    longitude: -56.78,
+                                    tags: 'comma-separated list of three descriptors',
+                                  },
+                                ],
+                              },
+                            ],
+                          },
+                        ],
+                      })}, use the values as hints, and only one or two recommendations per time of day.`,
+                    },
+                  ]).then(text => {
+                    const json = toJSON(text)
+                    if (!plansSnapshot.exists()) areaRef.update({ plans: json.plans })
+                    else {
+                      const plansArray = plansSnapshot.val()
+                      json.plans.forEach(plan => plansArray.push(plan))
+                      plansRef.set(plansArray)
+                    }
+                    generate.disabled = false
+                    generate.textContent = 'Generate new plan for this area'
+                  })
+                } catch (error) {
+                  g('error').textContent = error
+                }
+              })
+            })
+          })
+          .catch(error => console.error('Error updating plans:', error))
+      })
+  })
+  g('actions').appendChild(generate)
+
+  area.plans
     ? area.plans.forEach(plan => {
         console.log(plan)
         const card = document.createElement('div')
@@ -160,11 +261,7 @@ const renderPlans = area => {
         g('cards').appendChild(card)
         animateCards()
       })
-    : renderEmpty()
-}
-
-const renderEmpty = () => {
-  g('cards').innerHTML = '<div>Be the first to create a plan for this area! <button>Generate</button></div>'
+    : renderEmpty(city, area)
 }
 
 const renderPlan = plan => {
@@ -305,9 +402,9 @@ const renderPlan = plan => {
   story.appendChild(progress)
 
   const children = Array.from(story.childNodes).slice(0, -1)
-  children.forEach(child => {
+  children.forEach((child, i) => {
     const segment = document.createElement('div')
-    segment.className = 'progress-segment'
+    segment.className = ['progress-segment'].join(' ')
     progress.appendChild(segment)
   })
 
@@ -325,4 +422,43 @@ const renderPlan = plan => {
     bars[current - 1].classList.add('seen')
   })
   story.appendChild(next)
+}
+
+// admin
+
+const turbo = async messages => {
+  g('cards').innerHTML = 'Loading…'
+  const response = await fetch(`https://us-central1-samantha-374622.cloudfunctions.net/turbo`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(messages),
+  })
+  return response.text()
+}
+
+const toJSON = str => {
+  const curly = str.indexOf('{')
+  const square = str.indexOf('[')
+  let first
+  if (curly < 0) first = '[' // only for empty arrays
+  else if (square < 0) first = '{'
+  else first = curly < square ? '{' : '['
+  const last = first === '{' ? '}' : ']'
+  // ensure JSON is complete
+  let count = 0
+  for (const c of str) {
+    if (c === '{' || c === '[') count++
+    else if (c === '}' || c === ']') count--
+  }
+  if (!count) return JSON.parse(str.slice(str.indexOf(first), str.lastIndexOf(last) + 1))
+}
+
+const renderEmpty = (city, area) => {
+  g('cards').innerHTML = ''
+
+  const note = document.createElement('h2')
+  note.textContent = 'Be the first to create a plan for this area!'
+  g('cards').appendChild(note)
 }
